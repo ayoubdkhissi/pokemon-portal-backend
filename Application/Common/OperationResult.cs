@@ -60,3 +60,8 @@ public class OperationResult<TData> : OperationResult
 {
     public TData? Data { get; set; }
 }
+
+public class ValidationOperationResult : OperationResult
+{
+    public new IEnumerable<ValidationError> Errors { get; set; } = Enumerable.Empty<ValidationError>();
+}
