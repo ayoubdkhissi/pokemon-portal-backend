@@ -12,11 +12,11 @@
 
   <ItemGroup>
     <Folder Include="Persistence\Migrations\" />
-    <Folder Include="Persistence\Config\" />
-    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="Persistence\DbConfigs\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Azure.Security.KeyVault.Secrets" Version="4.5.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.1" />
   </ItemGroup>
 

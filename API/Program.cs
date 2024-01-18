@@ -1,3 +1,6 @@
+using Application.Options;
+using Microsoft.Extensions.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -10,6 +13,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.Configure<AzureAdOptions>(builder.Configuration.GetSection("AzureAd"));
+
+
 
 var app = builder.Build();
 

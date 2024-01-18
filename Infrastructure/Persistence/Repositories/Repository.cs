@@ -4,7 +4,7 @@ using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace Infrastructure.Services;
+namespace Infrastructure.Repositories;
 public class Repository<T> : IRepository<T> where T : BaseEntity
 {
     private readonly AppDbContext _context;
