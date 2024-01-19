@@ -3,7 +3,7 @@ using Domain.Interfaces;
 using Microsoft.Extensions.Options;
 
 namespace Application.Configuration;
-public class SecretsOptionsConfigure : IConfigureOptions<SecretOptions>
+public class SecretsOptionsConfigure : IConfigureOptions<SecretsOptions>
 {
     private readonly ISecretsService _secretsService;
     private readonly string _envName;
@@ -14,7 +14,7 @@ public class SecretsOptionsConfigure : IConfigureOptions<SecretOptions>
         _envName = envName;
     }
 
-    public void Configure(SecretOptions options)
+    public void Configure(SecretsOptions options)
     {
         ArgumentNullException.ThrowIfNull(options);
 

@@ -1,6 +1,6 @@
 ﻿using Application.Options;
-using Azure.Identity;
 using Azure.Security.KeyVault.Secrets;
+using Azure.Identity;
 using Domain.Exceptions;
 using Domain.Interfaces;
 using Microsoft.Extensions.Options;
