@@ -4,6 +4,7 @@ public static class ErrorCodes
     // General Errors
     public const string NotFound = "not_found";
     public const string ValidationFailed = "validation_failed";
+    public const string InternalServerError = "internal_server_error";
 
     // Validation Errors
     public const string PropertyIsRequired = "property_is_required";

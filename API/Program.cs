@@ -1,3 +1,4 @@
+using API.Middlewares;
 using Application.Options;
 using Microsoft.Extensions.Configuration;
 
@@ -14,11 +15,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.Configure<AzureAdOptions>(builder.Configuration.GetSection("AzureAd"));
 
+builder.Services.AddApplicationServices();
 
 
 var app = builder.Build();
+
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
