@@ -17,8 +17,24 @@ public static class ConfigureApplicationServices
     private static IServiceCollection AddValidators(this IServiceCollection services)
     {
         // Inject all DTO validators at once
-        services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        var validatorTypes = typeof(ConfigureApplicationServices).Assembly.GetTypes()
+            .Where(t => t.IsClass &&
+            !t.IsAbstract &&
+            !t.IsGenericTypeDefinition &&
+            t.Name.EndsWith("Validator", System.StringComparison.InvariantCulture));
 
+        foreach (var validatorType in validatorTypes)
+        {
+            var validatorInterface = validatorType.GetInterfaces()
+                .FirstOrDefault(i => i.IsGenericType &&
+                (i.GetGenericTypeDefinition() == typeof(ICreateValidator<>) ||
+                 i.GetGenericTypeDefinition() == typeof(IUpdateValidator<>)));
+            if (validatorInterface is null)
+                continue;
+
+            services.AddScoped(validatorInterface, validatorType);
+        }
+        
         return services;
     }
 }

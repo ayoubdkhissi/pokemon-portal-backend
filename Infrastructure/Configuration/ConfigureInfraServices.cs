@@ -51,13 +51,14 @@ public static class ConfigureInfraServices
         var connetionString = connectionStringTemplate
                                 .Replace("{userName}", secretsOptions.DbUsername, StringComparison.InvariantCulture)
                                 .Replace("{password}", secretsOptions.DbPassword, StringComparison.InvariantCulture);
+
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
         return services;
     }
 
     private static IServiceCollection AddLogging(this IServiceCollection services)
     {
-        services.AddScoped(typeof(ILoggerAdapter<>), typeof(ILoggerAdapter<>));
+        services.AddScoped(typeof(ILoggerAdapter<>), typeof(LoggerAdapter<>));
 
         // TODO: Configure SeriLog and Seq here
 

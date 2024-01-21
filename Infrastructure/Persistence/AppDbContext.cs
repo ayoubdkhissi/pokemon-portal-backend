@@ -1,10 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection;
 
 namespace Infrastructure.Persistence;
 public class AppDbContext : DbContext
 {
-    public AppDbContext(DbContextOptions options) : base(options){}
+    public AppDbContext(DbContextOptions options) : base(options)
+    {
+        
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -12,6 +16,9 @@ public class AppDbContext : DbContext
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        //Database.Migrate();
     }
 
+
+    public DbSet<Pokemon> Pokemons { get; set; }
 }

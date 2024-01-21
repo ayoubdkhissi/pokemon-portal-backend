@@ -1,7 +1,7 @@
 using API.Middlewares;
 using Infrastructure.Configuration;
 using Application.Configuration;
-
+using API.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -10,11 +10,8 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddApiServices();
 builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment.EnvironmentName);
 builder.Services.AddApplicationServices();
 
