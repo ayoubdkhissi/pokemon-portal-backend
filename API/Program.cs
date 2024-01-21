@@ -1,6 +1,6 @@
 using API.Middlewares;
-using Application.Options;
-using Microsoft.Extensions.Configuration;
+using Infrastructure.Configuration;
+using Application.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,11 +11,11 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
+builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment.EnvironmentName);
 builder.Services.AddApplicationServices();
 
 

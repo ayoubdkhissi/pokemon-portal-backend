@@ -1,11 +1,10 @@
 ﻿using Application.Configuration;
 using Application.Options;
-using Application.Services;
 using Application.Services.Interfaces;
-using Application.Validators.Pokemon;
 using Domain.Interfaces;
 using Infrastructure.Persistence;
 using Infrastructure.Repositories;
+using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,29 +13,31 @@ using Microsoft.Extensions.Options;
 namespace Infrastructure.Configuration;
 public static class ConfigureInfraServices
 {
-    
+
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration, string envName)
     {
+        services.AddSingleton<ISecretsService, SecretsService>();
+
         services.AddApplicationOptions(configuration, envName);
         services.AddDatabase(configuration);
         services.AddLogging();
+        services.AddRepositories();
         return services;
     }
 
-    public static IServiceCollection AddRepositories(this IServiceCollection services)
+    private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
         return services;
     }
-    
+
     private static IServiceCollection AddApplicationOptions(this IServiceCollection services, IConfiguration configuration, string envName)
     {
         ArgumentNullException.ThrowIfNull(configuration);
 
         services.Configure<AzureAdOptions>(configuration.GetSection("AzureAd"));
-        
         services.Configure<SecretsOptions>(options => { });
-        services.AddTransient<IConfigureOptions<SecretsOptions>>(provider => 
+        services.AddTransient<IConfigureOptions<SecretsOptions>>(provider =>
             new SecretsOptionsConfigure(provider.GetRequiredService<ISecretsService>(), envName));
 
         return services;
@@ -46,7 +47,7 @@ public static class ConfigureInfraServices
     {
         var secretsOptions = services.BuildServiceProvider().GetService<IOptions<SecretsOptions>>()?.Value!;
 
-        var connectionStringTemplate = configuration.GetConnectionString("DefaultTemplate")!;
+        var connectionStringTemplate = configuration.GetConnectionString("PostgresTemplate")!;
         var connetionString = connectionStringTemplate
                                 .Replace("{userName}", secretsOptions.DbUsername, StringComparison.InvariantCulture)
                                 .Replace("{password}", secretsOptions.DbPassword, StringComparison.InvariantCulture);
@@ -59,7 +60,7 @@ public static class ConfigureInfraServices
         services.AddScoped(typeof(ILoggerAdapter<>), typeof(ILoggerAdapter<>));
 
         // TODO: Configure SeriLog and Seq here
-        
+
         return services;
     }
 }
