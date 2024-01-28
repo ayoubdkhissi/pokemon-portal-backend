@@ -22,7 +22,12 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public Task<T?> GetByIdWithIncludesAsync(int id, params Expression<Func<T, object>>[] includes)
     {
-        throw new NotImplementedException();
+        IQueryable<T> query = _context.Set<T>().Where(e => e.Id == id);
+        foreach (var include in includes)
+        {
+            query = query.Include(include);
+        }
+        return query.FirstOrDefaultAsync();
     }
     
     public async Task<IEnumerable<T>> GetAllAsync()

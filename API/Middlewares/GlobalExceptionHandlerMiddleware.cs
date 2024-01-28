@@ -37,7 +37,8 @@ public class GlobalExceptionHandlerMiddleware : IMiddleware
         var apiResponse = new ApiResponse<string>
         {
             Success = false,
-            ErrorCode = ErrorCodes.InternalServerError
+            ErrorCode = ErrorCodes.InternalServerError,
+            Message = $"An Exception has accured: {ex.Message}"
         };
         var json = JsonSerializer.Serialize(apiResponse);
         await context.Response.WriteAsync(json).ConfigureAwait(false);

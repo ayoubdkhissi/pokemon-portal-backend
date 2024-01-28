@@ -13,7 +13,9 @@ public class ResultHandler : IResultHandler
         {
             Success = result.IsSuccess,
             ErrorCode = result.ErrorCode,
-            Errors = result.Errors
+            Errors = result.Errors,
+            Message = result.Message
+
         };
         return StatusCode(result.StatusCode, apiResponse);
     }
@@ -25,6 +27,7 @@ public class ResultHandler : IResultHandler
             Success = result.IsSuccess,
             ErrorCode = result.ErrorCode,
             Errors = result.Errors,
+            Message = result.Message,
             Data = result.Data
         };
         return StatusCode(result.StatusCode, apiResponse);
