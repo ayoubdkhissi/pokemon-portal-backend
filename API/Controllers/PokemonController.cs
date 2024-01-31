@@ -14,8 +14,9 @@ public class PokemonController : Controller<Pokemon, PokemonDto, PokemonManipula
         IService<Pokemon> service, 
         IResultHandler resultHandler, 
         ICreateValidator<PokemonManipulationDto> createValidator, 
-        IUpdateValidator<PokemonManipulationDto> updateValidator) 
-        : base(service, resultHandler, createValidator, updateValidator)
+        IUpdateValidator<PokemonManipulationDto> updateValidator,
+        ILoggerAdapter<Controller<Pokemon, PokemonDto, PokemonManipulationDto, PokemonManipulationDto>> logger) 
+        : base(service, resultHandler, createValidator, updateValidator, logger)
     {
     }
 }

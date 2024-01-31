@@ -3,6 +3,7 @@ using Application.Common;
 using Application.DTOs;
 using Application.Services.Interfaces;
 using Domain.Common;
+using FluentValidation.Results;
 using Mapster;
 using Microsoft.AspNetCore.Mvc;
 using Shared.Constants;
@@ -23,15 +24,18 @@ public class Controller<T, TDto, TCreateDto, TUpdateDto> : ControllerBase
     protected readonly IResultHandler _resultHandler;
     protected readonly ICreateValidator<TCreateDto> _createValidator;
     protected readonly IUpdateValidator<TUpdateDto> _updateValidator;
+    protected readonly ILoggerAdapter<Controller<T, TDto, TCreateDto, TUpdateDto>> _logger;
     public Controller(IService<T> service,
         IResultHandler resultHandler,
         ICreateValidator<TCreateDto> createValidator,
-        IUpdateValidator<TUpdateDto> updateValidator)
+        IUpdateValidator<TUpdateDto> updateValidator,
+        ILoggerAdapter<Controller<T, TDto, TCreateDto, TUpdateDto>> logger)
     {
         _service = service ?? throw new ArgumentNullException(nameof(service));
         _resultHandler = resultHandler ?? throw new ArgumentNullException(nameof(resultHandler));
         _createValidator = createValidator ?? throw new ArgumentNullException(nameof(createValidator));
         _updateValidator = updateValidator ?? throw new ArgumentNullException(nameof(updateValidator));
+        _logger = logger;
     }
 
     [HttpGet]
@@ -55,7 +59,8 @@ public class Controller<T, TDto, TCreateDto, TUpdateDto> : ControllerBase
         {
             var result = OperationResult.Failure(
                 (int)HttpStatusCode.NotFound,
-                ErrorCodes.NotFound);
+                ErrorCodes.NotFound,
+                $"Entity with id {id} was not found");
             return _resultHandler.HandleResult(result);
         }
         var dto = entity.Adapt<TDto>();
@@ -71,17 +76,7 @@ public class Controller<T, TDto, TCreateDto, TUpdateDto> : ControllerBase
         var validationResult = await _createValidator.ValidateAsync(dto);
         if (!validationResult.IsValid)
         {
-            var result = new ValidationOperationResult
-            {
-                IsSuccess = false,
-                StatusCode = (int)HttpStatusCode.BadRequest,
-                ErrorCode = ErrorCodes.ValidationFailed,
-                Errors = validationResult.Errors.Select(error => new ValidationError
-                {
-                    ErrorCode = error.ErrorCode,
-                    PropertyName = error.PropertyName
-                })
-            };
+            var result = GetOperationResultFromValidation(validationResult);
 
             return _resultHandler.HandleResult(result);
         }
@@ -101,17 +96,7 @@ public class Controller<T, TDto, TCreateDto, TUpdateDto> : ControllerBase
         var validationResult = await _updateValidator.ValidateAsync(dto);
         if (!validationResult.IsValid)
         {
-            var result = new ValidationOperationResult
-            {
-                IsSuccess = false,
-                StatusCode = (int)HttpStatusCode.BadRequest,
-                ErrorCode = ErrorCodes.ValidationFailed,
-                Errors = validationResult.Errors.Select(error => new ValidationError
-                {
-                    ErrorCode = error.ErrorCode,
-                    PropertyName = error.PropertyName
-                })
-            };
+            OperationResult result = GetOperationResultFromValidation(validationResult);
 
             return _resultHandler.HandleResult(result);
         }
@@ -146,5 +131,20 @@ public class Controller<T, TDto, TCreateDto, TUpdateDto> : ControllerBase
         }
         await _service.DeleteAsync(existingEntity);
         return _resultHandler.HandleResult(OperationResult.Success());
+    }
+
+    private static OperationResult GetOperationResultFromValidation(ValidationResult validationResult)
+    {
+        return new OperationResult
+        {
+            IsSuccess = false,
+            StatusCode = (int)HttpStatusCode.BadRequest,
+            ErrorCode = ErrorCodes.ValidationFailed,
+            Errors = validationResult.Errors.Select(error => new ResultError
+            {
+                Code = error.ErrorCode,
+                ErrorDetails = error.ErrorMessage
+            })
+        };
     }
 }

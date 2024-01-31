@@ -15,7 +15,6 @@ public class ResultHandler : IResultHandler
             ErrorCode = result.ErrorCode,
             Errors = result.Errors,
             Message = result.Message
-
         };
         return StatusCode(result.StatusCode, apiResponse);
     }
