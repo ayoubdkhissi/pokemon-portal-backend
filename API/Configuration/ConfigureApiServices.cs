@@ -10,6 +10,7 @@ public static class ConfigureApiServices
         services.AddControllers();
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen();
+        services.AddHealthChecks();
 
         services.AddSingleton<IResultHandler, ResultHandler>();
         services.AddScoped<GlobalExceptionHandlerMiddleware>();

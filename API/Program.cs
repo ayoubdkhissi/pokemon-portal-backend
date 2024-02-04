@@ -15,10 +15,8 @@ builder.Services.AddApiServices();
 builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment.EnvironmentName);
 builder.Services.AddApplicationServices();
 
-
 var app = builder.Build();
 
-app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -27,6 +25,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
+app.UseHealthChecks("/health");
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
