@@ -1,14 +1,15 @@
-﻿#nullable disable
-using Domain.Interfaces;
+﻿using Domain.Interfaces;
 using FluentAssertions;
 using Infrastructure.Repositories;
 using Tests.InfrastructureTests.Utilities;
 using Tests.TestSupport;
 
 namespace Tests.InfrastructureTests.Repositories.RepositoryTests;
+
 [Trait("Category", "Infra.Repositories.Repository")]
-public class GetAllAsyncTests : GivenWhenAsyncThenTest
+public class GetAllWithIncludesAsyncTests : GivenWhenAsyncThenTest
 {
+
     private TestDbContext _testDbContext;
     private IRepository<TestEntity> _sut;
     private List<TestEntity> _resultEntities;
@@ -21,7 +22,7 @@ public class GetAllAsyncTests : GivenWhenAsyncThenTest
 
     protected override async Task WhenAsync()
     {
-        _resultEntities = (await _sut.GetAllAsync()).ToList();
+        _resultEntities = (await _sut.GetAllWithIncludesAsync(entity => entity.TestRelatedEntities)).ToList();
     }
 
     [Fact]
@@ -35,8 +36,9 @@ public class GetAllAsyncTests : GivenWhenAsyncThenTest
     }
 
     [Fact]
-    public void Then_All_Entities_Should_Not_Contain_Related_Entities()
+    public void Then_All_Entities_Should_Contain_Related_Entities()
     {
-        _resultEntities.Should().OnlyContain(entity => entity.TestRelatedEntities.Count == 0);
+        _resultEntities.Should().NotBeEmpty();
+        _resultEntities.ForEach(entity => entity.TestRelatedEntities.Should().NotBeEmpty());
     }
 }
