@@ -5,9 +5,14 @@ using System.Reflection;
 namespace Infrastructure.Persistence;
 public class AppDbContext : DbContext
 {
+    
     public AppDbContext(DbContextOptions options) : base(options)
     {
         
+    }
+
+    public AppDbContext() : base()
+    {
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
