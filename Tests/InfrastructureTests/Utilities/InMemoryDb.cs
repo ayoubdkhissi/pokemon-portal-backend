@@ -15,16 +15,14 @@ public static class InMemoryDb
         // Add some test data to the in-memory database
         var entities = new List<TestEntity>
         {
-            new TestEntity { Id = 1, Name = "Test 1", TestRelatedEntities = new () { new () { Id = 1, Name = "Related 1" } } },
-            new TestEntity { Id = 2, Name = "Test 2", TestRelatedEntities = new () { new () { Id = 2, Name = "Related 2" } } },
-            new TestEntity { Id = 3, Name = "Test 3", TestRelatedEntities = new () { new () { Id = 3, Name = "Related 3" } } }
+            new() { Id = 1, Name = "Test 1", TestRelatedEntities = [new () { Id = 1, Name = "Related 1" }] },
+            new() { Id = 2, Name = "Test 2", TestRelatedEntities = [new () { Id = 2, Name = "Related 2" }] },
+            new() { Id = 3, Name = "Test 3", TestRelatedEntities = [new () { Id = 3, Name = "Related 3" }] }
         };
         
         testDbContext.AddRange(entities);
         testDbContext.SaveChanges();
         testDbContext.ChangeTracker.Clear();
-
-
         return testDbContext;
     }
 }

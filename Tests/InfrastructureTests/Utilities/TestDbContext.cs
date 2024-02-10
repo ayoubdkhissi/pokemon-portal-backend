@@ -10,6 +10,10 @@ public class TestDbContext : AppDbContext
     {
     }
 
+    public TestDbContext() : base()
+    {
+    }
+
     public DbSet<TestEntity> TestEntities { get; set; }
     public DbSet<TestRelatedEntity> TestRelatedEntities { get; set; }
 }
