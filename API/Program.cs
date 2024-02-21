@@ -11,7 +11,7 @@ builder.Configuration
     .AddEnvironmentVariables();
 
 
-builder.Services.AddApiServices();
+builder.Services.AddApiServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment.EnvironmentName);
 builder.Services.AddApplicationServices();
 
@@ -19,15 +19,24 @@ var app = builder.Build();
 
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+var devEnvs = new[] { "Local" };
+if (devEnvs.Contains(app.Environment.EnvironmentName))
 {
+    app.UseDeveloperExceptionPage();
+    app.UseMigrationsEndPoint();
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
+app.UseCors(c =>
+{
+    c.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? Array.Empty<string>());
+});
+
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
 app.UseHealthChecks("/health");
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-app.Run();
+await app.RunAsync();
