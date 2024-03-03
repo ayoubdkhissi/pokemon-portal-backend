@@ -14,6 +14,10 @@ public class TestDbContext : AppDbContext
     {
     }
 
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        ArgumentNullException.ThrowIfNull(modelBuilder);
+    }
     public DbSet<TestEntity> TestEntities { get; set; }
     public DbSet<TestRelatedEntity> TestRelatedEntities { get; set; }
 }
