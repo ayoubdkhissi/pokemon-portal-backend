@@ -1,7 +1,7 @@
 name: Build and deploy to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: pokemon-portal-api-prod
+  AZURE_WEBAPP_NAME: prod-pokemon-api
   AZURE_WEBAPP_PACKAGE_PATH: './publish'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '8.0.x'                 # set this to the .NET Core version to use
 
@@ -35,7 +35,7 @@ jobs:
         run: dotnet test --no-restore
 
       - name: dotnet publish
-        run: dotnet publish -c Release --no-build -o ${{env.AZURE_WEBAPP_PACKAGE_PATH}}
+        run: dotnet publish -c Release --no-build -o ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
       
       - name: 'Deploy'
         uses: azure/webapps-deploy@v3
