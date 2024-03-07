@@ -16,8 +16,6 @@ public static class ConfigureInfraServices
 
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration, string envName)
     {
-        services.AddSingleton<ISecretsService, SecretsService>();
-
         services.AddApplicationOptions(configuration, envName);
         services.AddDatabase(configuration);
         services.AddLogging();
@@ -35,10 +33,11 @@ public static class ConfigureInfraServices
     {
         ArgumentNullException.ThrowIfNull(configuration);
 
-        services.Configure<AzureAdOptions>(configuration.GetSection("AzureAd"));
-        services.Configure<SecretsOptions>(options => { });
-        services.AddTransient<IConfigureOptions<SecretsOptions>>(provider =>
-            new SecretsOptionsConfigure(provider.GetRequiredService<ISecretsService>(), envName));
+        services.Configure<SecretsOptions>(options => 
+        {
+            options.DbUsername = configuration[$"DbUsername"]!;
+            options.DbPassword = configuration[$"DbPassword-{envName}"]!;
+        });
 
         return services;
     }

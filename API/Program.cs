@@ -2,6 +2,7 @@ using API.Middlewares;
 using Infrastructure.Configuration;
 using Application.Configuration;
 using API.Configuration;
+using Azure.Identity;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -10,6 +11,14 @@ builder.Configuration
     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
     .AddEnvironmentVariables();
 
+if (builder.Environment.IsEnvironment("Local"))
+{
+    builder.Configuration.AddUserSecrets<Program>();
+}
+else
+{
+    builder.Configuration.AddAzureKeyVault(new Uri(builder.Configuration["KeyVault:BaseUrl"]!), new DefaultAzureCredential());
+}
 
 builder.Services.AddApiServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration, builder.Environment.EnvironmentName);
