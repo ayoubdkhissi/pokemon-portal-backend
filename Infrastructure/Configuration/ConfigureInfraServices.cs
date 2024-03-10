@@ -14,9 +14,9 @@ namespace Infrastructure.Configuration;
 public static class ConfigureInfraServices
 {
 
-    public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration, string envName)
+    public static IServiceCollection AddInfrastructureServices(this IServiceCollection services, IConfiguration configuration)
     {
-        services.AddApplicationOptions(configuration, envName);
+        services.AddApplicationOptions(configuration);
         services.AddDatabase(configuration);
         services.AddLogging();
         services.AddRepositories();
@@ -29,14 +29,14 @@ public static class ConfigureInfraServices
         return services;
     }
 
-    private static IServiceCollection AddApplicationOptions(this IServiceCollection services, IConfiguration configuration, string envName)
+    private static IServiceCollection AddApplicationOptions(this IServiceCollection services, IConfiguration configuration)
     {
         ArgumentNullException.ThrowIfNull(configuration);
 
         services.Configure<SecretsOptions>(options => 
         {
             options.DbUsername = configuration[$"DbUsername"]!;
-            options.DbPassword = configuration[$"DbPassword-{envName}"]!;
+            options.DbPassword = configuration[$"DbPassword"]!;
         });
 
         return services;
@@ -44,12 +44,10 @@ public static class ConfigureInfraServices
 
     private static IServiceCollection AddDatabase(this IServiceCollection services, IConfiguration configuration)
     {
-        var secretsOptions = services.BuildServiceProvider().GetService<IOptions<SecretsOptions>>()?.Value!;
-
         var connectionStringTemplate = configuration.GetConnectionString("PostgresTemplate")!;
         var connetionString = connectionStringTemplate
-                                .Replace("{userName}", secretsOptions.DbUsername, StringComparison.InvariantCulture)
-                                .Replace("{password}", secretsOptions.DbPassword, StringComparison.InvariantCulture);
+                                .Replace("{userName}", configuration[$"DbUsername"]!, StringComparison.InvariantCulture)
+                                .Replace("{password}", configuration[$"DbPassword"]!, StringComparison.InvariantCulture);
 
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
         return services;
