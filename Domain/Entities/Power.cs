@@ -1,11 +1,9 @@
 ﻿using Domain.Common;
 
 namespace Domain.Entities;
-public class Pokemon : BaseEntity
+public class Power : BaseEntity
 {
     public string Name { get; set; } = string.Empty;
-    public int Attack { get; set; }
-    public int Defense { get; set; }
     public string ImageUrl { get; set; } = string.Empty;
-    public IEnumerable<Power> Powers { get; set; } = [];
+    public IEnumerable<Pokemon> Pokemons { get; set; } = [];
 }

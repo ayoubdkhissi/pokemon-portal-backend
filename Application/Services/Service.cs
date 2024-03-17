@@ -6,11 +6,13 @@ using System.Linq.Expressions;
 namespace Application.Services;
 public class Service<T> : IService<T> where T : BaseEntity
 {
+    private readonly IUnitOfWork _unitOfWork;
     private readonly IRepository<T> _repository;
 
-    public Service(IRepository<T> repository)
+    public Service(IUnitOfWork unitOfWork)
     {
-        _repository = repository;
+        _unitOfWork = unitOfWork ?? throw new ArgumentNullException(nameof(unitOfWork));
+        _repository = _unitOfWork.Repository<T>();
     }
 
     public async Task<T?> GetByIdAsync(int id)
@@ -45,37 +47,37 @@ public class Service<T> : IService<T> where T : BaseEntity
     public async Task<T> AddAsync(T entity)
     {
         var addedEntity = _repository.Add(entity);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
         return addedEntity;
     }
 
     public async Task AddRangeAsync(IEnumerable<T> entities)
     {
         _repository.AddRange(entities);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
     }
 
     public async Task DeleteAsync(T entity)
     {
         _repository.Delete(entity);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
     }
 
     public async Task DeleteRangeAsync(IEnumerable<T> entities)
     {
         _repository.DeleteRange(entities);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
     }
 
     public async Task UpdateAsync(T entity)
     {
         _repository.Update(entity);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
     }
 
     public async Task UpdateRangeAsync(IEnumerable<T> entities)
     {
         _repository.UpdateRange(entities);
-        await _repository.SaveChangesAsync();
+        await _unitOfWork.SaveChangesAsync();
     }
 }
