@@ -1,0 +1,4812 @@
+[
+  {
+    "Name": "Bulbasaur",
+    "Attack": 49,
+    "Defense": 49,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Ivysaur",
+    "Attack": 62,
+    "Defense": 63,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Venusaur",
+    "Attack": 82,
+    "Defense": 83,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/3.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Squirtle",
+    "Attack": 48,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/7.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Wartortle",
+    "Attack": 63,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/8.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Blastoise",
+    "Attack": 83,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/9.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Weedle",
+    "Attack": 35,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/13.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Kakuna",
+    "Attack": 25,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/14.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Beedrill",
+    "Attack": 90,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/15.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Pidgey",
+    "Attack": 45,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/16.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Pidgeotto",
+    "Attack": 60,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/17.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Pidgeot",
+    "Attack": 80,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/18.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Rattata",
+    "Attack": 56,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/19.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Raticate",
+    "Attack": 81,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/20.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Spearow",
+    "Attack": 60,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/21.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Fearow",
+    "Attack": 90,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/22.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Ekans",
+    "Attack": 60,
+    "Defense": 44,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/23.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Arbok",
+    "Attack": 95,
+    "Defense": 69,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/24.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Pikachu",
+    "Attack": 55,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/25.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Raichu",
+    "Attack": 90,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/26.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Sandshrew",
+    "Attack": 75,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/27.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Sandslash",
+    "Attack": 100,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/28.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Nidoran-f",
+    "Attack": 47,
+    "Defense": 52,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/29.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Nidorina",
+    "Attack": 62,
+    "Defense": 67,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/30.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Nidoqueen",
+    "Attack": 92,
+    "Defense": 87,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/31.svg",
+    "TypeIds": [
+      8,
+      5
+    ]
+  },
+  {
+    "Name": "Nidoran-m",
+    "Attack": 57,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/32.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Nidorino",
+    "Attack": 72,
+    "Defense": 57,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/33.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Nidoking",
+    "Attack": 102,
+    "Defense": 77,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/34.svg",
+    "TypeIds": [
+      8,
+      5
+    ]
+  },
+  {
+    "Name": "Clefairy",
+    "Attack": 45,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/35.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Clefable",
+    "Attack": 70,
+    "Defense": 73,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/36.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Jigglypuff",
+    "Attack": 45,
+    "Defense": 20,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/39.svg",
+    "TypeIds": [
+      7,
+      3
+    ]
+  },
+  {
+    "Name": "Wigglytuff",
+    "Attack": 70,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/40.svg",
+    "TypeIds": [
+      7,
+      3
+    ]
+  },
+  {
+    "Name": "Zubat",
+    "Attack": 45,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/41.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Golbat",
+    "Attack": 80,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/42.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Oddish",
+    "Attack": 50,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/43.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Gloom",
+    "Attack": 65,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/44.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Vileplume",
+    "Attack": 80,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/45.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Venonat",
+    "Attack": 55,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/48.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Venomoth",
+    "Attack": 65,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/49.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Diglett",
+    "Attack": 55,
+    "Defense": 25,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/50.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Dugtrio",
+    "Attack": 100,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/51.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Meowth",
+    "Attack": 45,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/52.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Persian",
+    "Attack": 70,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/53.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Psyduck",
+    "Attack": 52,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/54.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Golduck",
+    "Attack": 82,
+    "Defense": 78,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/55.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Mankey",
+    "Attack": 80,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/56.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Primeape",
+    "Attack": 105,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/57.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Poliwag",
+    "Attack": 50,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/60.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Poliwhirl",
+    "Attack": 65,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/61.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Poliwrath",
+    "Attack": 95,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/62.svg",
+    "TypeIds": [
+      12,
+      4
+    ]
+  },
+  {
+    "Name": "Abra",
+    "Attack": 20,
+    "Defense": 15,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/63.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Kadabra",
+    "Attack": 35,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/64.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Alakazam",
+    "Attack": 50,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/65.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Machop",
+    "Attack": 80,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/66.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Machoke",
+    "Attack": 100,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/67.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Machamp",
+    "Attack": 130,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/68.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Bellsprout",
+    "Attack": 75,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/69.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Weepinbell",
+    "Attack": 90,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/70.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Victreebel",
+    "Attack": 105,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/71.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Tentacool",
+    "Attack": 40,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/72.svg",
+    "TypeIds": [
+      12,
+      8
+    ]
+  },
+  {
+    "Name": "Tentacruel",
+    "Attack": 70,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/73.svg",
+    "TypeIds": [
+      12,
+      8
+    ]
+  },
+  {
+    "Name": "Geodude",
+    "Attack": 80,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/74.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Graveler",
+    "Attack": 95,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/75.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Golem",
+    "Attack": 120,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/76.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Slowpoke",
+    "Attack": 65,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/79.svg",
+    "TypeIds": [
+      12,
+      9
+    ]
+  },
+  {
+    "Name": "Slowbro",
+    "Attack": 75,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/80.svg",
+    "TypeIds": [
+      12,
+      9
+    ]
+  },
+  {
+    "Name": "Magnemite",
+    "Attack": 35,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/81.svg",
+    "TypeIds": [
+      2,
+      11
+    ]
+  },
+  {
+    "Name": "Magneton",
+    "Attack": 60,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/82.svg",
+    "TypeIds": [
+      2,
+      11
+    ]
+  },
+  {
+    "Name": "Farfetchd",
+    "Attack": 90,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/83.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Doduo",
+    "Attack": 85,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/84.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Dodrio",
+    "Attack": 110,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/85.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Seel",
+    "Attack": 45,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/86.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Dewgong",
+    "Attack": 70,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/87.svg",
+    "TypeIds": [
+      12,
+      6
+    ]
+  },
+  {
+    "Name": "Grimer",
+    "Attack": 80,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/88.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Muk",
+    "Attack": 105,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/89.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Shellder",
+    "Attack": 65,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/90.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Cloyster",
+    "Attack": 95,
+    "Defense": 180,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/91.svg",
+    "TypeIds": [
+      12,
+      6
+    ]
+  },
+  {
+    "Name": "Gastly",
+    "Attack": 35,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/92.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Haunter",
+    "Attack": 50,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/93.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Gengar",
+    "Attack": 65,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/94.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Onix",
+    "Attack": 45,
+    "Defense": 160,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/95.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Drowzee",
+    "Attack": 48,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/96.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Hypno",
+    "Attack": 73,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/97.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Krabby",
+    "Attack": 105,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/98.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Kingler",
+    "Attack": 130,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/99.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Voltorb",
+    "Attack": 30,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/100.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Electrode",
+    "Attack": 50,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/101.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Exeggcute",
+    "Attack": 40,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/102.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Exeggutor",
+    "Attack": 95,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/103.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Cubone",
+    "Attack": 50,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/104.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Marowak",
+    "Attack": 80,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/105.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Hitmonlee",
+    "Attack": 120,
+    "Defense": 53,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/106.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Hitmonchan",
+    "Attack": 105,
+    "Defense": 79,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/107.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Lickitung",
+    "Attack": 55,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/108.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Koffing",
+    "Attack": 65,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/109.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Weezing",
+    "Attack": 90,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/110.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Rhyhorn",
+    "Attack": 85,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/111.svg",
+    "TypeIds": [
+      5,
+      10
+    ]
+  },
+  {
+    "Name": "Rhydon",
+    "Attack": 130,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/112.svg",
+    "TypeIds": [
+      5,
+      10
+    ]
+  },
+  {
+    "Name": "Chansey",
+    "Attack": 5,
+    "Defense": 5,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/113.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Kangaskhan",
+    "Attack": 95,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/115.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Horsea",
+    "Attack": 40,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/116.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Seadra",
+    "Attack": 65,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/117.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Goldeen",
+    "Attack": 67,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/118.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Seaking",
+    "Attack": 92,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/119.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Staryu",
+    "Attack": 45,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/120.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Starmie",
+    "Attack": 75,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/121.svg",
+    "TypeIds": [
+      12,
+      9
+    ]
+  },
+  {
+    "Name": "Mr-mime",
+    "Attack": 45,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/122.svg",
+    "TypeIds": [
+      9,
+      3
+    ]
+  },
+  {
+    "Name": "Jynx",
+    "Attack": 50,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/124.svg",
+    "TypeIds": [
+      6,
+      9
+    ]
+  },
+  {
+    "Name": "Electabuzz",
+    "Attack": 83,
+    "Defense": 57,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/125.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Tauros",
+    "Attack": 100,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/128.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Magikarp",
+    "Attack": 10,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/129.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Gyarados",
+    "Attack": 125,
+    "Defense": 79,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/130.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Lapras",
+    "Attack": 85,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/131.svg",
+    "TypeIds": [
+      12,
+      6
+    ]
+  },
+  {
+    "Name": "Ditto",
+    "Attack": 48,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/132.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Eevee",
+    "Attack": 55,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/133.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Vaporeon",
+    "Attack": 65,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/134.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Jolteon",
+    "Attack": 65,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/135.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Porygon",
+    "Attack": 60,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/137.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Omanyte",
+    "Attack": 40,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/138.svg",
+    "TypeIds": [
+      10,
+      12
+    ]
+  },
+  {
+    "Name": "Omastar",
+    "Attack": 60,
+    "Defense": 125,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/139.svg",
+    "TypeIds": [
+      10,
+      12
+    ]
+  },
+  {
+    "Name": "Kabuto",
+    "Attack": 80,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/140.svg",
+    "TypeIds": [
+      10,
+      12
+    ]
+  },
+  {
+    "Name": "Kabutops",
+    "Attack": 115,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/141.svg",
+    "TypeIds": [
+      10,
+      12
+    ]
+  },
+  {
+    "Name": "Aerodactyl",
+    "Attack": 105,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/142.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Snorlax",
+    "Attack": 110,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/143.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Articuno",
+    "Attack": 85,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/144.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Zapdos",
+    "Attack": 90,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/145.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Mewtwo",
+    "Attack": 110,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/150.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Mew",
+    "Attack": 100,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/151.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Totodile",
+    "Attack": 65,
+    "Defense": 64,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/158.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Croconaw",
+    "Attack": 80,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/159.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Feraligatr",
+    "Attack": 105,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/160.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Sentret",
+    "Attack": 46,
+    "Defense": 34,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/161.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Furret",
+    "Attack": 76,
+    "Defense": 64,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/162.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Hoothoot",
+    "Attack": 30,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/163.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Noctowl",
+    "Attack": 50,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/164.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Spinarak",
+    "Attack": 60,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/167.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Ariados",
+    "Attack": 90,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/168.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Crobat",
+    "Attack": 90,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/169.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Chinchou",
+    "Attack": 38,
+    "Defense": 38,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/170.svg",
+    "TypeIds": [
+      12,
+      2
+    ]
+  },
+  {
+    "Name": "Lanturn",
+    "Attack": 58,
+    "Defense": 58,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/171.svg",
+    "TypeIds": [
+      12,
+      2
+    ]
+  },
+  {
+    "Name": "Pichu",
+    "Attack": 40,
+    "Defense": 15,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/172.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Cleffa",
+    "Attack": 25,
+    "Defense": 28,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/173.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Igglybuff",
+    "Attack": 30,
+    "Defense": 15,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/174.svg",
+    "TypeIds": [
+      7,
+      3
+    ]
+  },
+  {
+    "Name": "Togepi",
+    "Attack": 20,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/175.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Togetic",
+    "Attack": 40,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/176.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Natu",
+    "Attack": 50,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/177.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Xatu",
+    "Attack": 75,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/178.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Mareep",
+    "Attack": 40,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/179.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Flaaffy",
+    "Attack": 55,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/180.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Ampharos",
+    "Attack": 75,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/181.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Marill",
+    "Attack": 20,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/183.svg",
+    "TypeIds": [
+      12,
+      3
+    ]
+  },
+  {
+    "Name": "Azumarill",
+    "Attack": 50,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/184.svg",
+    "TypeIds": [
+      12,
+      3
+    ]
+  },
+  {
+    "Name": "Sudowoodo",
+    "Attack": 100,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/185.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Politoed",
+    "Attack": 75,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/186.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Aipom",
+    "Attack": 70,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/190.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Wooper",
+    "Attack": 45,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/194.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Quagsire",
+    "Attack": 85,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/195.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Espeon",
+    "Attack": 65,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/196.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Umbreon",
+    "Attack": 65,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/197.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Murkrow",
+    "Attack": 85,
+    "Defense": 42,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/198.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Slowking",
+    "Attack": 75,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/199.svg",
+    "TypeIds": [
+      12,
+      9
+    ]
+  },
+  {
+    "Name": "Unown",
+    "Attack": 72,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/201.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Wobbuffet",
+    "Attack": 33,
+    "Defense": 58,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/202.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Girafarig",
+    "Attack": 80,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/203.svg",
+    "TypeIds": [
+      7,
+      9
+    ]
+  },
+  {
+    "Name": "Forretress",
+    "Attack": 90,
+    "Defense": 140,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/205.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Dunsparce",
+    "Attack": 70,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/206.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Gligar",
+    "Attack": 75,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/207.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Steelix",
+    "Attack": 85,
+    "Defense": 200,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/208.svg",
+    "TypeIds": [
+      11,
+      5
+    ]
+  },
+  {
+    "Name": "Snubbull",
+    "Attack": 80,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/209.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Granbull",
+    "Attack": 120,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/210.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Qwilfish",
+    "Attack": 95,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/211.svg",
+    "TypeIds": [
+      12,
+      8
+    ]
+  },
+  {
+    "Name": "Scizor",
+    "Attack": 130,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/212.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Shuckle",
+    "Attack": 10,
+    "Defense": 230,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/213.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Heracross",
+    "Attack": 125,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/214.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Sneasel",
+    "Attack": 95,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/215.svg",
+    "TypeIds": [
+      1,
+      6
+    ]
+  },
+  {
+    "Name": "Teddiursa",
+    "Attack": 80,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/216.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Ursaring",
+    "Attack": 130,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/217.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Magcargo",
+    "Attack": 50,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/219.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Swinub",
+    "Attack": 50,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/220.svg",
+    "TypeIds": [
+      6,
+      5
+    ]
+  },
+  {
+    "Name": "Piloswine",
+    "Attack": 100,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/221.svg",
+    "TypeIds": [
+      6,
+      5
+    ]
+  },
+  {
+    "Name": "Corsola",
+    "Attack": 55,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/222.svg",
+    "TypeIds": [
+      12,
+      10
+    ]
+  },
+  {
+    "Name": "Remoraid",
+    "Attack": 65,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/223.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Octillery",
+    "Attack": 105,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/224.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Delibird",
+    "Attack": 55,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/225.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Mantine",
+    "Attack": 40,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/226.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Skarmory",
+    "Attack": 80,
+    "Defense": 140,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/227.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Houndour",
+    "Attack": 60,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/228.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Houndoom",
+    "Attack": 90,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/229.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Kingdra",
+    "Attack": 95,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/230.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Phanpy",
+    "Attack": 60,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/231.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Donphan",
+    "Attack": 120,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/232.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Porygon2",
+    "Attack": 80,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/233.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Stantler",
+    "Attack": 95,
+    "Defense": 62,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/234.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Smeargle",
+    "Attack": 20,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/235.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Tyrogue",
+    "Attack": 35,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/236.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Hitmontop",
+    "Attack": 95,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/237.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Smoochum",
+    "Attack": 30,
+    "Defense": 15,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/238.svg",
+    "TypeIds": [
+      6,
+      9
+    ]
+  },
+  {
+    "Name": "Elekid",
+    "Attack": 63,
+    "Defense": 37,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/239.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Miltank",
+    "Attack": 80,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/241.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Blissey",
+    "Attack": 10,
+    "Defense": 10,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/242.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Raikou",
+    "Attack": 85,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/243.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Suicune",
+    "Attack": 75,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/245.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Larvitar",
+    "Attack": 64,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/246.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Pupitar",
+    "Attack": 84,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/247.svg",
+    "TypeIds": [
+      10,
+      5
+    ]
+  },
+  {
+    "Name": "Tyranitar",
+    "Attack": 134,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/248.svg",
+    "TypeIds": [
+      10,
+      1
+    ]
+  },
+  {
+    "Name": "Lugia",
+    "Attack": 90,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/249.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Celebi",
+    "Attack": 100,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/251.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Combusken",
+    "Attack": 85,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/256.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Blaziken",
+    "Attack": 120,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/257.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Mudkip",
+    "Attack": 70,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/258.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Marshtomp",
+    "Attack": 85,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/259.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Swampert",
+    "Attack": 110,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/260.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Poochyena",
+    "Attack": 55,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/261.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Mightyena",
+    "Attack": 90,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/262.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Zigzagoon",
+    "Attack": 30,
+    "Defense": 41,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/263.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Linoone",
+    "Attack": 70,
+    "Defense": 61,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/264.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Dustox",
+    "Attack": 50,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/269.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Lotad",
+    "Attack": 30,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/270.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Lombre",
+    "Attack": 50,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/271.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Ludicolo",
+    "Attack": 70,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/272.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Nuzleaf",
+    "Attack": 70,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/274.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Shiftry",
+    "Attack": 100,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/275.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Taillow",
+    "Attack": 55,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/276.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Swellow",
+    "Attack": 85,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/277.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Wingull",
+    "Attack": 30,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/278.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Pelipper",
+    "Attack": 50,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/279.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Ralts",
+    "Attack": 25,
+    "Defense": 25,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/280.svg",
+    "TypeIds": [
+      9,
+      3
+    ]
+  },
+  {
+    "Name": "Kirlia",
+    "Attack": 35,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/281.svg",
+    "TypeIds": [
+      9,
+      3
+    ]
+  },
+  {
+    "Name": "Gardevoir",
+    "Attack": 65,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/282.svg",
+    "TypeIds": [
+      9,
+      3
+    ]
+  },
+  {
+    "Name": "Surskit",
+    "Attack": 30,
+    "Defense": 32,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/283.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Breloom",
+    "Attack": 130,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/286.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Slakoth",
+    "Attack": 60,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/287.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Vigoroth",
+    "Attack": 80,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/288.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Slaking",
+    "Attack": 160,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/289.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Nincada",
+    "Attack": 45,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/290.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Whismur",
+    "Attack": 51,
+    "Defense": 23,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/293.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Loudred",
+    "Attack": 71,
+    "Defense": 43,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/294.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Exploud",
+    "Attack": 91,
+    "Defense": 63,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/295.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Makuhita",
+    "Attack": 60,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/296.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Hariyama",
+    "Attack": 120,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/297.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Azurill",
+    "Attack": 20,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/298.svg",
+    "TypeIds": [
+      7,
+      3
+    ]
+  },
+  {
+    "Name": "Nosepass",
+    "Attack": 45,
+    "Defense": 135,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/299.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Skitty",
+    "Attack": 45,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/300.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Delcatty",
+    "Attack": 65,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/301.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Sableye",
+    "Attack": 75,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/302.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Mawile",
+    "Attack": 85,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/303.svg",
+    "TypeIds": [
+      11,
+      3
+    ]
+  },
+  {
+    "Name": "Aron",
+    "Attack": 70,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/304.svg",
+    "TypeIds": [
+      11,
+      10
+    ]
+  },
+  {
+    "Name": "Lairon",
+    "Attack": 90,
+    "Defense": 140,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/305.svg",
+    "TypeIds": [
+      11,
+      10
+    ]
+  },
+  {
+    "Name": "Aggron",
+    "Attack": 110,
+    "Defense": 180,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/306.svg",
+    "TypeIds": [
+      11,
+      10
+    ]
+  },
+  {
+    "Name": "Meditite",
+    "Attack": 40,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/307.svg",
+    "TypeIds": [
+      4,
+      9
+    ]
+  },
+  {
+    "Name": "Medicham",
+    "Attack": 60,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/308.svg",
+    "TypeIds": [
+      4,
+      9
+    ]
+  },
+  {
+    "Name": "Electrike",
+    "Attack": 45,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/309.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Manectric",
+    "Attack": 75,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/310.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Plusle",
+    "Attack": 50,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/311.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Minun",
+    "Attack": 40,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/312.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Roselia",
+    "Attack": 60,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/315.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Gulpin",
+    "Attack": 43,
+    "Defense": 53,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/316.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Swalot",
+    "Attack": 73,
+    "Defense": 83,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/317.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Carvanha",
+    "Attack": 90,
+    "Defense": 20,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/318.svg",
+    "TypeIds": [
+      12,
+      1
+    ]
+  },
+  {
+    "Name": "Sharpedo",
+    "Attack": 120,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/319.svg",
+    "TypeIds": [
+      12,
+      1
+    ]
+  },
+  {
+    "Name": "Wailmer",
+    "Attack": 70,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/320.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Wailord",
+    "Attack": 90,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/321.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Numel",
+    "Attack": 60,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/322.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Camerupt",
+    "Attack": 100,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/323.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Spoink",
+    "Attack": 25,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/325.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Grumpig",
+    "Attack": 45,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/326.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Spinda",
+    "Attack": 60,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/327.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Trapinch",
+    "Attack": 100,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/328.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Vibrava",
+    "Attack": 70,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/329.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Flygon",
+    "Attack": 100,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/330.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Cacturne",
+    "Attack": 115,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/332.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Swablu",
+    "Attack": 40,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/333.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Zangoose",
+    "Attack": 115,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/335.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Seviper",
+    "Attack": 100,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/336.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Lunatone",
+    "Attack": 55,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/337.svg",
+    "TypeIds": [
+      10,
+      9
+    ]
+  },
+  {
+    "Name": "Solrock",
+    "Attack": 95,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/338.svg",
+    "TypeIds": [
+      10,
+      9
+    ]
+  },
+  {
+    "Name": "Barboach",
+    "Attack": 48,
+    "Defense": 43,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/339.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Whiscash",
+    "Attack": 78,
+    "Defense": 73,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/340.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Corphish",
+    "Attack": 80,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/341.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Crawdaunt",
+    "Attack": 120,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/342.svg",
+    "TypeIds": [
+      12,
+      1
+    ]
+  },
+  {
+    "Name": "Baltoy",
+    "Attack": 40,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/343.svg",
+    "TypeIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "Name": "Claydol",
+    "Attack": 70,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/344.svg",
+    "TypeIds": [
+      5,
+      9
+    ]
+  },
+  {
+    "Name": "Lileep",
+    "Attack": 41,
+    "Defense": 77,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/345.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Cradily",
+    "Attack": 81,
+    "Defense": 97,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/346.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Anorith",
+    "Attack": 95,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/347.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Armaldo",
+    "Attack": 125,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/348.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Feebas",
+    "Attack": 15,
+    "Defense": 20,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/349.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Milotic",
+    "Attack": 60,
+    "Defense": 79,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/350.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Castform",
+    "Attack": 70,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/351.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Kecleon",
+    "Attack": 90,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/352.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Chimecho",
+    "Attack": 50,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/358.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Absol",
+    "Attack": 130,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/359.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Wynaut",
+    "Attack": 23,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/360.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Snorunt",
+    "Attack": 50,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/361.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Glalie",
+    "Attack": 80,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/362.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Spheal",
+    "Attack": 40,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/363.svg",
+    "TypeIds": [
+      6,
+      12
+    ]
+  },
+  {
+    "Name": "Sealeo",
+    "Attack": 60,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/364.svg",
+    "TypeIds": [
+      6,
+      12
+    ]
+  },
+  {
+    "Name": "Walrein",
+    "Attack": 80,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/365.svg",
+    "TypeIds": [
+      6,
+      12
+    ]
+  },
+  {
+    "Name": "Clamperl",
+    "Attack": 64,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/366.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Huntail",
+    "Attack": 104,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/367.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Gorebyss",
+    "Attack": 84,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/368.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Relicanth",
+    "Attack": 90,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/369.svg",
+    "TypeIds": [
+      12,
+      10
+    ]
+  },
+  {
+    "Name": "Luvdisc",
+    "Attack": 30,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/370.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Beldum",
+    "Attack": 55,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/374.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Metang",
+    "Attack": 75,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/375.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Metagross",
+    "Attack": 135,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/376.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Regirock",
+    "Attack": 100,
+    "Defense": 200,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/377.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Regice",
+    "Attack": 50,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/378.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Registeel",
+    "Attack": 75,
+    "Defense": 150,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/379.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Latias",
+    "Attack": 80,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/380.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Latios",
+    "Attack": 90,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/381.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Kyogre",
+    "Attack": 100,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/382.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Groudon",
+    "Attack": 150,
+    "Defense": 140,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/383.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Jirachi",
+    "Attack": 100,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/385.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Deoxys-normal",
+    "Attack": 150,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/386.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Torterra",
+    "Attack": 109,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/389.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Monferno",
+    "Attack": 78,
+    "Defense": 52,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/391.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Infernape",
+    "Attack": 104,
+    "Defense": 71,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/392.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Piplup",
+    "Attack": 51,
+    "Defense": 53,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/393.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Prinplup",
+    "Attack": 66,
+    "Defense": 68,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/394.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Empoleon",
+    "Attack": 86,
+    "Defense": 88,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/395.svg",
+    "TypeIds": [
+      12,
+      11
+    ]
+  },
+  {
+    "Name": "Starly",
+    "Attack": 55,
+    "Defense": 30,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/396.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Staravia",
+    "Attack": 75,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/397.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Staraptor",
+    "Attack": 120,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/398.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Bidoof",
+    "Attack": 45,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/399.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Bibarel",
+    "Attack": 85,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/400.svg",
+    "TypeIds": [
+      7,
+      12
+    ]
+  },
+  {
+    "Name": "Shinx",
+    "Attack": 65,
+    "Defense": 34,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/403.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Luxio",
+    "Attack": 85,
+    "Defense": 49,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/404.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Luxray",
+    "Attack": 120,
+    "Defense": 79,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/405.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Budew",
+    "Attack": 30,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/406.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Roserade",
+    "Attack": 70,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/407.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Cranidos",
+    "Attack": 125,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/408.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Rampardos",
+    "Attack": 165,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/409.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Shieldon",
+    "Attack": 42,
+    "Defense": 118,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/410.svg",
+    "TypeIds": [
+      10,
+      11
+    ]
+  },
+  {
+    "Name": "Bastiodon",
+    "Attack": 52,
+    "Defense": 168,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/411.svg",
+    "TypeIds": [
+      10,
+      11
+    ]
+  },
+  {
+    "Name": "Pachirisu",
+    "Attack": 45,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/417.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Buizel",
+    "Attack": 65,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/418.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Floatzel",
+    "Attack": 105,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/419.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Shellos",
+    "Attack": 48,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/422.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Gastrodon",
+    "Attack": 83,
+    "Defense": 68,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/423.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Ambipom",
+    "Attack": 100,
+    "Defense": 66,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/424.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Buneary",
+    "Attack": 66,
+    "Defense": 44,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/427.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Lopunny",
+    "Attack": 76,
+    "Defense": 84,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/428.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Honchkrow",
+    "Attack": 125,
+    "Defense": 52,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/430.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Glameow",
+    "Attack": 55,
+    "Defense": 42,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/431.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Purugly",
+    "Attack": 82,
+    "Defense": 64,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/432.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Chingling",
+    "Attack": 30,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/433.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Stunky",
+    "Attack": 63,
+    "Defense": 47,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/434.svg",
+    "TypeIds": [
+      8,
+      1
+    ]
+  },
+  {
+    "Name": "Skuntank",
+    "Attack": 93,
+    "Defense": 67,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/435.svg",
+    "TypeIds": [
+      8,
+      1
+    ]
+  },
+  {
+    "Name": "Bronzor",
+    "Attack": 24,
+    "Defense": 86,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/436.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Bronzong",
+    "Attack": 89,
+    "Defense": 116,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/437.svg",
+    "TypeIds": [
+      11,
+      9
+    ]
+  },
+  {
+    "Name": "Bonsly",
+    "Attack": 80,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/438.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Mime-jr",
+    "Attack": 25,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/439.svg",
+    "TypeIds": [
+      9,
+      3
+    ]
+  },
+  {
+    "Name": "Happiny",
+    "Attack": 5,
+    "Defense": 5,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/440.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Chatot",
+    "Attack": 65,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/441.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Spiritomb",
+    "Attack": 92,
+    "Defense": 108,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/442.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Gible",
+    "Attack": 70,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/443.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Gabite",
+    "Attack": 90,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/444.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Garchomp",
+    "Attack": 130,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/445.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Munchlax",
+    "Attack": 85,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/446.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Riolu",
+    "Attack": 70,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/447.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Lucario",
+    "Attack": 110,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/448.svg",
+    "TypeIds": [
+      4,
+      11
+    ]
+  },
+  {
+    "Name": "Hippopotas",
+    "Attack": 72,
+    "Defense": 78,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/449.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Hippowdon",
+    "Attack": 112,
+    "Defense": 118,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/450.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Skorupi",
+    "Attack": 50,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/451.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Drapion",
+    "Attack": 90,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/452.svg",
+    "TypeIds": [
+      8,
+      1
+    ]
+  },
+  {
+    "Name": "Croagunk",
+    "Attack": 61,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/453.svg",
+    "TypeIds": [
+      8,
+      4
+    ]
+  },
+  {
+    "Name": "Toxicroak",
+    "Attack": 106,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/454.svg",
+    "TypeIds": [
+      8,
+      4
+    ]
+  },
+  {
+    "Name": "Finneon",
+    "Attack": 49,
+    "Defense": 56,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/456.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Lumineon",
+    "Attack": 69,
+    "Defense": 76,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/457.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Mantyke",
+    "Attack": 20,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/458.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Snover",
+    "Attack": 62,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/459.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Abomasnow",
+    "Attack": 92,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/460.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Weavile",
+    "Attack": 120,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/461.svg",
+    "TypeIds": [
+      1,
+      6
+    ]
+  },
+  {
+    "Name": "Magnezone",
+    "Attack": 70,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/462.svg",
+    "TypeIds": [
+      2,
+      11
+    ]
+  },
+  {
+    "Name": "Lickilicky",
+    "Attack": 85,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/463.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Rhyperior",
+    "Attack": 140,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/464.svg",
+    "TypeIds": [
+      5,
+      10
+    ]
+  },
+  {
+    "Name": "Electivire",
+    "Attack": 123,
+    "Defense": 67,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/466.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Togekiss",
+    "Attack": 50,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/468.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Glaceon",
+    "Attack": 60,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/471.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Gliscor",
+    "Attack": 95,
+    "Defense": 125,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/472.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Mamoswine",
+    "Attack": 130,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/473.svg",
+    "TypeIds": [
+      6,
+      5
+    ]
+  },
+  {
+    "Name": "Porygon-z",
+    "Attack": 80,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/474.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Gallade",
+    "Attack": 125,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/475.svg",
+    "TypeIds": [
+      9,
+      4
+    ]
+  },
+  {
+    "Name": "Probopass",
+    "Attack": 55,
+    "Defense": 145,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/476.svg",
+    "TypeIds": [
+      10,
+      11
+    ]
+  },
+  {
+    "Name": "Froslass",
+    "Attack": 80,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/478.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Rotom",
+    "Attack": 50,
+    "Defense": 77,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/479.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Uxie",
+    "Attack": 75,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/480.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Mesprit",
+    "Attack": 105,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/481.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Azelf",
+    "Attack": 125,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/482.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Dialga",
+    "Attack": 120,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/483.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Palkia",
+    "Attack": 120,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/484.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Heatran",
+    "Attack": 90,
+    "Defense": 106,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/485.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Regigigas",
+    "Attack": 160,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/486.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Cresselia",
+    "Attack": 70,
+    "Defense": 110,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/488.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Phione",
+    "Attack": 80,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/489.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Manaphy",
+    "Attack": 100,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/490.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Darkrai",
+    "Attack": 90,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/491.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Arceus",
+    "Attack": 120,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/493.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Victini",
+    "Attack": 100,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/494.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Pignite",
+    "Attack": 93,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/499.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Emboar",
+    "Attack": 123,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/500.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Oshawott",
+    "Attack": 55,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/501.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Dewott",
+    "Attack": 75,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/502.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Samurott",
+    "Attack": 100,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/503.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Patrat",
+    "Attack": 55,
+    "Defense": 39,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/504.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Watchog",
+    "Attack": 85,
+    "Defense": 69,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/505.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Lillipup",
+    "Attack": 60,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/506.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Herdier",
+    "Attack": 80,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/507.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Stoutland",
+    "Attack": 110,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/508.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Purrloin",
+    "Attack": 50,
+    "Defense": 37,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/509.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Liepard",
+    "Attack": 88,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/510.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Panpour",
+    "Attack": 53,
+    "Defense": 48,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/515.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Simipour",
+    "Attack": 98,
+    "Defense": 63,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/516.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Munna",
+    "Attack": 25,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/517.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Musharna",
+    "Attack": 55,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/518.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Pidove",
+    "Attack": 55,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/519.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Tranquill",
+    "Attack": 77,
+    "Defense": 62,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/520.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Unfezant",
+    "Attack": 115,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/521.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Blitzle",
+    "Attack": 60,
+    "Defense": 32,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/522.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Zebstrika",
+    "Attack": 100,
+    "Defense": 63,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/523.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Roggenrola",
+    "Attack": 75,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/524.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Boldore",
+    "Attack": 105,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/525.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Gigalith",
+    "Attack": 135,
+    "Defense": 130,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/526.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Woobat",
+    "Attack": 45,
+    "Defense": 43,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/527.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Swoobat",
+    "Attack": 57,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/528.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Drilbur",
+    "Attack": 85,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/529.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Excadrill",
+    "Attack": 135,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/530.svg",
+    "TypeIds": [
+      5,
+      11
+    ]
+  },
+  {
+    "Name": "Audino",
+    "Attack": 60,
+    "Defense": 86,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/531.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Timburr",
+    "Attack": 80,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/532.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Gurdurr",
+    "Attack": 105,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/533.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Conkeldurr",
+    "Attack": 140,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/534.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Tympole",
+    "Attack": 50,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/535.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Palpitoad",
+    "Attack": 65,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/536.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Seismitoad",
+    "Attack": 95,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/537.svg",
+    "TypeIds": [
+      12,
+      5
+    ]
+  },
+  {
+    "Name": "Throh",
+    "Attack": 100,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/538.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Sawk",
+    "Attack": 125,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/539.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Venipede",
+    "Attack": 45,
+    "Defense": 59,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/543.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Whirlipede",
+    "Attack": 55,
+    "Defense": 99,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/544.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Scolipede",
+    "Attack": 100,
+    "Defense": 89,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/545.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Cottonee",
+    "Attack": 27,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/546.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Whimsicott",
+    "Attack": 67,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/547.svg",
+    "TypeIds": [
+      3
+    ]
+  },
+  {
+    "Name": "Basculin-red-striped",
+    "Attack": 92,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/550.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Sandile",
+    "Attack": 72,
+    "Defense": 35,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/551.svg",
+    "TypeIds": [
+      5,
+      1
+    ]
+  },
+  {
+    "Name": "Krokorok",
+    "Attack": 82,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/552.svg",
+    "TypeIds": [
+      5,
+      1
+    ]
+  },
+  {
+    "Name": "Krookodile",
+    "Attack": 117,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/553.svg",
+    "TypeIds": [
+      5,
+      1
+    ]
+  },
+  {
+    "Name": "Dwebble",
+    "Attack": 65,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/557.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Crustle",
+    "Attack": 105,
+    "Defense": 125,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/558.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Scraggy",
+    "Attack": 75,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/559.svg",
+    "TypeIds": [
+      1,
+      4
+    ]
+  },
+  {
+    "Name": "Scrafty",
+    "Attack": 90,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/560.svg",
+    "TypeIds": [
+      1,
+      4
+    ]
+  },
+  {
+    "Name": "Sigilyph",
+    "Attack": 58,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/561.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Tirtouga",
+    "Attack": 78,
+    "Defense": 103,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/564.svg",
+    "TypeIds": [
+      12,
+      10
+    ]
+  },
+  {
+    "Name": "Carracosta",
+    "Attack": 108,
+    "Defense": 133,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/565.svg",
+    "TypeIds": [
+      12,
+      10
+    ]
+  },
+  {
+    "Name": "Archen",
+    "Attack": 112,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/566.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Archeops",
+    "Attack": 140,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/567.svg",
+    "TypeIds": [
+      10
+    ]
+  },
+  {
+    "Name": "Trubbish",
+    "Attack": 50,
+    "Defense": 62,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/568.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Garbodor",
+    "Attack": 95,
+    "Defense": 82,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/569.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Zorua",
+    "Attack": 65,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/570.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Zoroark",
+    "Attack": 105,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/571.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Minccino",
+    "Attack": 50,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/572.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Cinccino",
+    "Attack": 95,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/573.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Gothita",
+    "Attack": 30,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/574.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Gothorita",
+    "Attack": 45,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/575.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Gothitelle",
+    "Attack": 55,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/576.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Solosis",
+    "Attack": 30,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/577.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Duosion",
+    "Attack": 40,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/578.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Reuniclus",
+    "Attack": 65,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/579.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Ducklett",
+    "Attack": 44,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/580.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Swanna",
+    "Attack": 87,
+    "Defense": 63,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/581.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Vanillite",
+    "Attack": 50,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/582.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Vanillish",
+    "Attack": 65,
+    "Defense": 65,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/583.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Vanilluxe",
+    "Attack": 95,
+    "Defense": 85,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/584.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Deerling",
+    "Attack": 60,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/585.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Sawsbuck",
+    "Attack": 100,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/586.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Emolga",
+    "Attack": 75,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/587.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Escavalier",
+    "Attack": 135,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/589.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Foongus",
+    "Attack": 55,
+    "Defense": 45,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/590.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Amoonguss",
+    "Attack": 85,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/591.svg",
+    "TypeIds": [
+      8
+    ]
+  },
+  {
+    "Name": "Frillish",
+    "Attack": 40,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/592.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Jellicent",
+    "Attack": 60,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/593.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Alomomola",
+    "Attack": 75,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/594.svg",
+    "TypeIds": [
+      12
+    ]
+  },
+  {
+    "Name": "Joltik",
+    "Attack": 47,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/595.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Galvantula",
+    "Attack": 77,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/596.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Ferroseed",
+    "Attack": 50,
+    "Defense": 91,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/597.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Ferrothorn",
+    "Attack": 94,
+    "Defense": 131,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/598.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Klink",
+    "Attack": 55,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/599.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Klang",
+    "Attack": 80,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/600.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Klinklang",
+    "Attack": 100,
+    "Defense": 115,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/601.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Tynamo",
+    "Attack": 55,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/602.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Eelektrik",
+    "Attack": 85,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/603.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Eelektross",
+    "Attack": 115,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/604.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Elgyem",
+    "Attack": 55,
+    "Defense": 55,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/605.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Beheeyem",
+    "Attack": 75,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/606.svg",
+    "TypeIds": [
+      9
+    ]
+  },
+  {
+    "Name": "Cubchoo",
+    "Attack": 70,
+    "Defense": 40,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/613.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Beartic",
+    "Attack": 130,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/614.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Cryogonal",
+    "Attack": 50,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/615.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Stunfisk",
+    "Attack": 66,
+    "Defense": 84,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/618.svg",
+    "TypeIds": [
+      5,
+      2
+    ]
+  },
+  {
+    "Name": "Mienfoo",
+    "Attack": 85,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/619.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Mienshao",
+    "Attack": 125,
+    "Defense": 60,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/620.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Golett",
+    "Attack": 74,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/622.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Golurk",
+    "Attack": 124,
+    "Defense": 80,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/623.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Pawniard",
+    "Attack": 85,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/624.svg",
+    "TypeIds": [
+      1,
+      11
+    ]
+  },
+  {
+    "Name": "Bisharp",
+    "Attack": 125,
+    "Defense": 100,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/625.svg",
+    "TypeIds": [
+      1,
+      11
+    ]
+  },
+  {
+    "Name": "Bouffalant",
+    "Attack": 110,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/626.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Rufflet",
+    "Attack": 83,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/627.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Braviary",
+    "Attack": 123,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/628.svg",
+    "TypeIds": [
+      7
+    ]
+  },
+  {
+    "Name": "Vullaby",
+    "Attack": 55,
+    "Defense": 75,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/629.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Mandibuzz",
+    "Attack": 65,
+    "Defense": 105,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/630.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Durant",
+    "Attack": 109,
+    "Defense": 112,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/632.svg",
+    "TypeIds": [
+      11
+    ]
+  },
+  {
+    "Name": "Deino",
+    "Attack": 65,
+    "Defense": 50,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/633.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Zweilous",
+    "Attack": 85,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/634.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Hydreigon",
+    "Attack": 105,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/635.svg",
+    "TypeIds": [
+      1
+    ]
+  },
+  {
+    "Name": "Cobalion",
+    "Attack": 90,
+    "Defense": 129,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/638.svg",
+    "TypeIds": [
+      11,
+      4
+    ]
+  },
+  {
+    "Name": "Terrakion",
+    "Attack": 129,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/639.svg",
+    "TypeIds": [
+      10,
+      4
+    ]
+  },
+  {
+    "Name": "Virizion",
+    "Attack": 90,
+    "Defense": 72,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/640.svg",
+    "TypeIds": [
+      4
+    ]
+  },
+  {
+    "Name": "Thundurus-incarnate",
+    "Attack": 115,
+    "Defense": 70,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/642.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Zekrom",
+    "Attack": 150,
+    "Defense": 120,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/644.svg",
+    "TypeIds": [
+      2
+    ]
+  },
+  {
+    "Name": "Landorus-incarnate",
+    "Attack": 125,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/645.svg",
+    "TypeIds": [
+      5
+    ]
+  },
+  {
+    "Name": "Kyurem",
+    "Attack": 130,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/646.svg",
+    "TypeIds": [
+      6
+    ]
+  },
+  {
+    "Name": "Keldeo-ordinary",
+    "Attack": 72,
+    "Defense": 90,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/647.svg",
+    "TypeIds": [
+      12,
+      4
+    ]
+  },
+  {
+    "Name": "Meloetta-aria",
+    "Attack": 77,
+    "Defense": 77,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/648.svg",
+    "TypeIds": [
+      7,
+      9
+    ]
+  },
+  {
+    "Name": "Genesect",
+    "Attack": 120,
+    "Defense": 95,
+    "ImageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/649.svg",
+    "TypeIds": [
+      11
+    ]
+  }
+]

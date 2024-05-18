@@ -1,4 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
+using System.Text.Json;
 
 namespace Infrastructure.Persistence;
 public class DbInitializer
@@ -19,7 +22,51 @@ public class DbInitializer
             {
                 await _context.Database.EnsureDeletedAsync();
                 await _context.Database.MigrateAsync();
+                await Seed();
             }
         }   
     }
+
+    private async Task Seed()
+    {
+        var powersJson = "Infrastructure.Persistence.SeedData.powers.json";
+        var pokemonsJson = "Infrastructure.Persistence.SeedData.pokemons.json";
+
+        // read the 2 files as Embeded Resources
+        using var powersStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(powersJson);
+        using var pokemonsStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(pokemonsJson);
+
+        if (powersStream is null || pokemonsStream is null)
+        {
+            throw new Exception("Seed files data not found");
+        }
+
+        using var powersReader = new StreamReader(powersStream);
+        using var pokemonsReader = new StreamReader(pokemonsStream);
+
+        var powersJsonString = powersReader.ReadToEnd();
+        var pokemonsJsonString = pokemonsReader.ReadToEnd();
+
+        var powers = JsonSerializer.Deserialize<List<Power>>(powersJsonString);
+
+        // insert the powers
+        await _context.Powers.AddRangeAsync(powers);
+        await _context.SaveChangesAsync();
+
+        var pokemonModels = JsonSerializer.Deserialize<List<PokemonJsonModel>>(pokemonsJsonString);
+        var pokemons = pokemonModels.Select(p => new Pokemon
+        {
+            Name = p.Name,
+            Attack = p.Attack,
+            Defense = p.Defense,
+            ImageUrl = p.ImageUrl,
+            Powers = p.TypeIds.Select(powerId => powers.Single(p => p.Id == powerId)).ToList()
+        });
+
+        // insert the pokemons
+        await _context.Pokemons.AddRangeAsync(pokemons);
+        await _context.SaveChangesAsync();
+
+    }
+
 }
