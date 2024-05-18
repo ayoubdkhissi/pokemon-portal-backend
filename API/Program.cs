@@ -36,13 +36,12 @@ if (devEnvs.Contains(app.Environment.EnvironmentName))
     app.UseMigrationsEndPoint();
     app.UseSwagger();
     app.UseSwaggerUI();
-
-    // init db
-    using var scope = app.Services.CreateScope();
-    var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<DbInitializer>();
-    await context.InitializeAsync();
 }
+// init db
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var context = services.GetRequiredService<DbInitializer>();
+await context.InitializeAsync();
 
 app.UseCors(c =>
 {
