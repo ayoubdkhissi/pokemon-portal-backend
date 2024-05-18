@@ -5,9 +5,9 @@ using FluentValidation.Results;
 using Shared.Constants;
 
 namespace Application.Validators.Pokemon;
-public class UpdatePokemonDtoValidator : AbstractValidator<PokemonManipulationDto>, IUpdateValidator<PokemonManipulationDto>
+public class UpdatePowerDtoValidator : AbstractValidator<PokemonManipulationDto>, IUpdateValidator<PokemonManipulationDto>
 {
-    public UpdatePokemonDtoValidator()
+    public UpdatePowerDtoValidator()
     {
         RuleFor(x => x.Name)
             .NotEmpty().WithErrorCode(ErrorCodes.PropertyIsRequired)
