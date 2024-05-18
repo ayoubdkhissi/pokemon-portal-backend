@@ -88,6 +88,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public void Update(T entity)
     {
+        entity.UpdatedAt = DateTime.Now;
         _context.Entry(entity).State = EntityState.Modified;
     }
 
@@ -97,9 +98,5 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
         {
             _context.Entry(entity).State = EntityState.Modified;
         }
-    }
-    public async Task<int> SaveChangesAsync()
-    {
-        return await _context.SaveChangesAsync();
     }
 }

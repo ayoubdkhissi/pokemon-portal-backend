@@ -22,7 +22,11 @@ public class AppDbContext : DbContext
 
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
-        Database.Migrate();
+        //var pendingMigrations = Database.GetPendingMigrations();
+        //if (pendingMigrations.Any())
+        //{
+        //    Database.Migrate();
+        //}
     }
 
 

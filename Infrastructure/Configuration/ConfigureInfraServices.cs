@@ -3,6 +3,7 @@ using Application.Options;
 using Application.Services.Interfaces;
 using Domain.Interfaces;
 using Infrastructure.Persistence;
+using Infrastructure.Persistence.Repositories;
 using Infrastructure.Repositories;
 using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
@@ -25,7 +26,10 @@ public static class ConfigureInfraServices
 
     private static IServiceCollection AddRepositories(this IServiceCollection services)
     {
+        services.AddScoped<IRepositoryFactory, RepositoryFactory>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
         services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+        services.AddScoped<IPokemonRepository, PokemonRepository>();
         return services;
     }
 
@@ -38,7 +42,7 @@ public static class ConfigureInfraServices
             options.DbUsername = configuration[$"DbUsername"]!;
             options.DbPassword = configuration[$"DbPassword"]!;
         });
-
+        
         return services;
     }
 
@@ -50,6 +54,7 @@ public static class ConfigureInfraServices
                                 .Replace("{password}", configuration[$"DbPassword"]!, StringComparison.InvariantCulture);
 
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
+        services.AddScoped<DbInitializer>();
         return services;
     }
 

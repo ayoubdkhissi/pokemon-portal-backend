@@ -1,8 +1,7 @@
-﻿using Application.Services.Interfaces;
-using Application.Services;
-using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
+﻿using Application.Services;
+using Application.Services.Interfaces;
 using FluentValidation;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Application.Configuration;
 public static class ConfigureApplicationServices
@@ -10,6 +9,7 @@ public static class ConfigureApplicationServices
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
         services.AddScoped(typeof(IService<>), typeof(Service<>));
+        services.AddScoped<IPokemonService, PokemonService>();
         services.AddValidators();
         return services;
     }
@@ -21,7 +21,7 @@ public static class ConfigureApplicationServices
             .Where(t => t.IsClass &&
             !t.IsAbstract &&
             !t.IsGenericTypeDefinition &&
-            t.Name.EndsWith("Validator", System.StringComparison.InvariantCulture));
+            t.Name.EndsWith("Validator", StringComparison.InvariantCulture));
 
         foreach (var validatorType in validatorTypes)
         {
@@ -34,7 +34,7 @@ public static class ConfigureApplicationServices
 
             services.AddScoped(validatorInterface, validatorType);
         }
-        
+
         return services;
     }
 }

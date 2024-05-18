@@ -3,6 +3,7 @@ using Infrastructure.Configuration;
 using Application.Configuration;
 using API.Configuration;
 using Azure.Identity;
+using Infrastructure.Persistence;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Configuration
@@ -36,6 +37,11 @@ if (devEnvs.Contains(app.Environment.EnvironmentName))
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+// init db
+using var scope = app.Services.CreateScope();
+var services = scope.ServiceProvider;
+var context = services.GetRequiredService<DbInitializer>();
+await context.InitializeAsync();
 
 app.UseCors(c =>
 {
