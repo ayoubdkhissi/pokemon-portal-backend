@@ -21,7 +21,8 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
 
         if (!string.IsNullOrWhiteSpace(searchRequest.SearchTerm))
         {
-            query = query.Where(p => EF.Functions.Like(p.Name, $"%{searchRequest.SearchTerm}%"));
+            query = query.Where(p => EF.Functions.Like(p.Name.ToLower(), $"%{searchRequest.SearchTerm.ToLower()}%"));
+            
         }
 
         var items = await query.Skip((searchRequest.PageNumber - 1) * searchRequest.PageSize)
