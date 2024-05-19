@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240518182601_pokemon_powers_db_set")]
+    [Migration("20240519144518_pokemon_powers_db_set")]
     partial class pokemon_powers_db_set
     {
         /// <inheritdoc />

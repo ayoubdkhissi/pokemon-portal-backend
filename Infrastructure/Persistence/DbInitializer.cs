@@ -29,8 +29,8 @@ public class DbInitializer
 
     private async Task Seed()
     {
-        var powersJson = "Infrastructure.Persistence.SeedData.powers.json";
-        var pokemonsJson = "Infrastructure.Persistence.SeedData.pokemons.json";
+        var powersJson = "Infrastructure.Persistence.Seed.powers.json";
+        var pokemonsJson = "Infrastructure.Persistence.Seed.pokemons.json";
 
         // read the 2 files as Embeded Resources
         using var powersStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(powersJson);
@@ -60,8 +60,8 @@ public class DbInitializer
             Attack = p.Attack,
             Defense = p.Defense,
             ImageUrl = p.ImageUrl,
-            Powers = p.TypeIds.Select(powerId => powers.Single(p => p.Id == powerId)).ToList()
-        });
+            Powers = p.TypeIds.Select(typeId => powers.Single(p => p.Id == typeId)).ToList()
+        }).ToList();
 
         // insert the pokemons
         await _context.Pokemons.AddRangeAsync(pokemons);

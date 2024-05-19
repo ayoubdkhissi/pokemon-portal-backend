@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Persistence\Seed\pokemons.json" />
     <None Remove="Persistence\Seed\powers.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Persistence\Seed\pokemons.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Persistence\Seed\powers.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
