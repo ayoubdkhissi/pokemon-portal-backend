@@ -14,10 +14,12 @@ builder.Configuration
 
 if (builder.Environment.IsEnvironment("Local"))
 {
+    // Use user secrets (secrets.json) in development
     builder.Configuration.AddUserSecrets<Program>();
 }
 else
 {
+    // Connection to KeyVault is done through System-Asigned Managed Identity in Azure
     builder.Configuration.AddAzureKeyVault(new Uri(builder.Configuration["KeyVault:BaseUrl"]!), new DefaultAzureCredential());
 }
 

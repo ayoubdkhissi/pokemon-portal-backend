@@ -1,5 +1,4 @@
-﻿using Application.Options;
-using Application.Services.Interfaces;
+﻿using Application.Services.Interfaces;
 using Domain.Interfaces;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Repositories;
@@ -37,11 +36,13 @@ public static class ConfigureInfraServices
     {
         ArgumentNullException.ThrowIfNull(configuration);
 
-        services.Configure<SecretsOptions>(options =>
-        {
-            options.DbUsername = configuration[$"DbUsername"]!;
-            options.DbPassword = configuration[$"DbPassword"]!;
-        });
+        // Configure Options pattern Here
+
+        //services.Configure<SecretsOptions>(options =>
+        //{
+        //    options.DbUsername = configuration[$"DbUsername"]!;
+        //    options.DbPassword = configuration[$"DbPassword"]!;
+        //});
 
         return services;
     }
@@ -50,8 +51,8 @@ public static class ConfigureInfraServices
     {
         var connectionStringTemplate = configuration.GetConnectionString("PostgresTemplate")!;
         var connetionString = connectionStringTemplate
-                                .Replace("{userName}", configuration[$"DbUsername"]!, StringComparison.InvariantCulture)
-                                .Replace("{password}", configuration[$"DbPassword"]!, StringComparison.InvariantCulture);
+                                .Replace("{userName}", configuration["DbUsername"]!, StringComparison.InvariantCulture)
+                                .Replace("{password}", configuration["DbPassword"]!, StringComparison.InvariantCulture);
 
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
         services.AddScoped<DbInitializer>();
@@ -75,7 +76,12 @@ public static class ConfigureInfraServices
             services.AddSingleton<ICacheService, FakeCacheService>();
             return services;
         }
-        services.AddSingleton<ICacheService>(sp => new CacheService(configuration.GetConnectionString("Redis")!));
+        var connectionStringTemplate = configuration.GetConnectionString("RedisTemplate")!;
+        var connetionString = connectionStringTemplate
+                                .Replace("{host}", configuration["RedisHost"]!, StringComparison.InvariantCulture)
+                                .Replace("{password}", configuration["RedisPassword"]!, StringComparison.InvariantCulture);
+
+        services.AddSingleton<ICacheService>(sp => new CacheService(connetionString));
         return services;
     }
 }
