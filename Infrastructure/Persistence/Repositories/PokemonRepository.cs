@@ -25,11 +25,12 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
             
         }
 
+        var totalItems = await query.CountAsync();
+
         var items = await query.Skip((searchRequest.PageNumber - 1) * searchRequest.PageSize)
                      .Take(searchRequest.PageSize)
                      .ToListAsync();
 
-        var totalItems = await _context.Pokemons.CountAsync();
         return new SearchResponse<Pokemon>
         {
             Items = items,
