@@ -1,5 +1,4 @@
-﻿using Application.Configuration;
-using Application.Options;
+﻿using Application.Options;
 using Application.Services.Interfaces;
 using Domain.Interfaces;
 using Infrastructure.Persistence;
@@ -9,7 +8,7 @@ using Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
+using Shared.Constants;
 
 namespace Infrastructure.Configuration;
 public static class ConfigureInfraServices
@@ -21,6 +20,7 @@ public static class ConfigureInfraServices
         services.AddDatabase(configuration);
         services.AddLogging();
         services.AddRepositories();
+        services.AddCaching(configuration);
         return services;
     }
 
@@ -37,12 +37,12 @@ public static class ConfigureInfraServices
     {
         ArgumentNullException.ThrowIfNull(configuration);
 
-        services.Configure<SecretsOptions>(options => 
+        services.Configure<SecretsOptions>(options =>
         {
             options.DbUsername = configuration[$"DbUsername"]!;
             options.DbPassword = configuration[$"DbPassword"]!;
         });
-        
+
         return services;
     }
 
@@ -64,6 +64,18 @@ public static class ConfigureInfraServices
 
         // TODO: Configure SeriLog and Seq here
 
+        return services;
+    }
+
+    private static IServiceCollection AddCaching(this IServiceCollection services, IConfiguration configuration)
+    {
+        var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+        if (env == Environments.Local)
+        {
+            services.AddSingleton<ICacheService, FakeCacheService>();
+            return services;
+        }
+        services.AddSingleton<ICacheService>(sp => new CacheService(configuration.GetConnectionString("Redis")!));
         return services;
     }
 }

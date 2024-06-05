@@ -22,7 +22,7 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
         if (!string.IsNullOrWhiteSpace(searchRequest.SearchTerm))
         {
             query = query.Where(p => EF.Functions.Like(p.Name.ToLower(), $"%{searchRequest.SearchTerm.ToLower()}%"));
-            
+
         }
 
         var totalItems = await query.CountAsync();

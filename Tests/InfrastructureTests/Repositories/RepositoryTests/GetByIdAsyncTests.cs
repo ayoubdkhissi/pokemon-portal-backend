@@ -1,10 +1,7 @@
 ﻿#nullable disable
 using Domain.Interfaces;
 using FluentAssertions;
-using Infrastructure.Persistence;
 using Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
-using Moq;
 using Tests.InfrastructureTests.Utilities;
 using Tests.TestSupport;
 
@@ -49,7 +46,7 @@ public class GetByIdAsyncTests : GivenWhenAsyncThenTest
     {
         _resultEntity1.TestRelatedEntities.Should().BeEmpty();
     }
-    
+
     protected override void Cleanup()
     {
         _testDbContext.Dispose();

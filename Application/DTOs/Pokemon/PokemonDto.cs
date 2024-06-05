@@ -5,4 +5,5 @@ public class PokemonDto : PokemonManipulationDto, IEntityDto
 {
     public int Id { get; set; }
     public IEnumerable<PowerDto> Powers { get; set; } = [];
+    public ulong CatchCount { get; set; }
 }

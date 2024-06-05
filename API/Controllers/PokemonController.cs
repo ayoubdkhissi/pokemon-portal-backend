@@ -14,11 +14,11 @@ public class PokemonController : Controller<Pokemon, PokemonDto, PokemonManipula
 {
     private new readonly IPokemonService _service;
     public PokemonController(
-        IPokemonService service, 
-        IResultHandler resultHandler, 
-        ICreateValidator<PokemonManipulationDto> createValidator, 
+        IPokemonService service,
+        IResultHandler resultHandler,
+        ICreateValidator<PokemonManipulationDto> createValidator,
         IUpdateValidator<PokemonManipulationDto> updateValidator,
-        ILoggerAdapter<Controller<Pokemon, PokemonDto, PokemonManipulationDto, PokemonManipulationDto>> logger) 
+        ILoggerAdapter<Controller<Pokemon, PokemonDto, PokemonManipulationDto, PokemonManipulationDto>> logger)
         : base(service, resultHandler, createValidator, updateValidator, logger)
     {
         _service = service;

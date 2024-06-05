@@ -34,7 +34,7 @@ public class ResultHandler : IResultHandler
     }
 
     private static ObjectResult StatusCode([ActionResultStatusCode] int statusCode, [ActionResultObjectValue] object value)
-        => new (value)
+        => new(value)
         {
             StatusCode = statusCode
         };

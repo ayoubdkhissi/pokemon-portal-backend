@@ -15,14 +15,14 @@ public class LoggerAdapter<T> : ILoggerAdapter<T>
     {
         return source?.GetType().FullName;
     }
-    
+
     public void LogTrace(EventId eventId, string message, params object[] args)
     {
         if (!_logger.IsEnabled(LogLevel.Trace))
             return;
         _logger.LogTrace(eventId, message, args);
     }
-    
+
     public void LogDebug(EventId eventId, string message, params object[] args)
     {
         if (!_logger.IsEnabled(LogLevel.Debug))

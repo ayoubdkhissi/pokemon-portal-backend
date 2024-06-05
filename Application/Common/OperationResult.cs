@@ -11,8 +11,8 @@ public class OperationResult
     public IDictionary<string, object>? MetaData { get; set; }
 
     public static OperationResult Success(
-        int statusCode = (int)HttpStatusCode.OK, 
-        string? errorCode = null, 
+        int statusCode = (int)HttpStatusCode.OK,
+        string? errorCode = null,
         IDictionary<string, object>? metaData = null)
     {
         return new OperationResult
@@ -25,9 +25,9 @@ public class OperationResult
     }
 
     public static OperationResult<TData> Success<TData>(
-        TData data, 
-        int statusCode = (int)HttpStatusCode.OK, 
-        string? message = null, 
+        TData data,
+        int statusCode = (int)HttpStatusCode.OK,
+        string? message = null,
         IDictionary<string, object>? metaData = null)
     {
         return new OperationResult<TData>
@@ -41,10 +41,10 @@ public class OperationResult
     }
 
     public static OperationResult Failure(
-        int statusCode = (int)HttpStatusCode.InternalServerError, 
+        int statusCode = (int)HttpStatusCode.InternalServerError,
         string? errorCode = null,
         string? message = null,
-        IEnumerable<ResultError>? errors = null, 
+        IEnumerable<ResultError>? errors = null,
         IDictionary<string, object>? metaData = null)
     {
         return new OperationResult

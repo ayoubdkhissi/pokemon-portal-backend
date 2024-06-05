@@ -17,7 +17,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
 
     public async Task<T?> GetByIdAsync(int id)
     {
-        return await _context.Set<T>().FindAsync(id);  
+        return await _context.Set<T>().FindAsync(id);
     }
 
     public Task<T?> GetByIdWithIncludesAsync(int id, params Expression<Func<T, object>>[] includes)
@@ -29,7 +29,7 @@ public class Repository<T> : IRepository<T> where T : BaseEntity
         }
         return query.FirstOrDefaultAsync();
     }
-    
+
     public async Task<IEnumerable<T>> GetAllAsync()
     {
         return await _context.Set<T>().ToListAsync();

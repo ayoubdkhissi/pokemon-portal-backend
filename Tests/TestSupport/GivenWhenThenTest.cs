@@ -3,7 +3,7 @@ public abstract class GivenWhenThenTest : IDisposable
 {
     private bool _disposed;
 
-    protected GivenWhenThenTest() 
+    protected GivenWhenThenTest()
     {
         Setup();
     }
@@ -18,9 +18,9 @@ public abstract class GivenWhenThenTest : IDisposable
     protected abstract void When();
     protected virtual void Dispose(bool disposing)
     {
-        if(!_disposed)
+        if (!_disposed)
         {
-            if(disposing)
+            if (disposing)
             {
                 CleanUp();
             }
@@ -32,5 +32,5 @@ public abstract class GivenWhenThenTest : IDisposable
         Dispose(true);
         GC.SuppressFinalize(this);
     }
-    protected virtual void CleanUp(){ }
+    protected virtual void CleanUp() { }
 }

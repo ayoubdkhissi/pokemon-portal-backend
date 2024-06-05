@@ -19,7 +19,7 @@ public static class InMemoryDb
             new() { Id = 2, Name = "Test 2", TestRelatedEntities = [new () { Id = 2, Name = "Related 2" }] },
             new() { Id = 3, Name = "Test 3", TestRelatedEntities = [new () { Id = 3, Name = "Related 3" }] }
         };
-        
+
         testDbContext.AddRange(entities);
         testDbContext.SaveChanges();
         testDbContext.ChangeTracker.Clear();

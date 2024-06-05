@@ -30,12 +30,12 @@ public class UnitOfWork : IUnitOfWork
     {
         return await _context.SaveChangesAsync().ConfigureAwait(false);
     }
-    
+
     protected virtual void Dispose(bool disposing)
     {
-        if(!_disposed)
+        if (!_disposed)
         {
-            if(disposing)
+            if (disposing)
             {
                 _context.Dispose();
                 _repositories.Clear();

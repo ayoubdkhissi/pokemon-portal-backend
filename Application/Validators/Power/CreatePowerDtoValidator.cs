@@ -1,5 +1,4 @@
-﻿using Application.DTOs.Pokemon;
-using Application.DTOs.Power;
+﻿using Application.DTOs.Power;
 using Application.Services.Interfaces;
 using FluentValidation;
 using FluentValidation.Results;

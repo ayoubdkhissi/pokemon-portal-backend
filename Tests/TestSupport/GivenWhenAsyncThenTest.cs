@@ -12,7 +12,7 @@ public abstract class GivenWhenAsyncThenTest : IDisposable
         Given();
         await WhenAsync().ConfigureAwait(false);
     }
-    
+
     protected abstract void Given();
     protected abstract Task WhenAsync();
     protected virtual void Dispose(bool disposing)

@@ -1,7 +1,7 @@
 ﻿namespace Domain.Common;
 public class SearchRequest
 {
-    public int PageNumber 
+    public int PageNumber
     {
         get => _pageNumber;
         set => _pageNumber = (value < 1) ? 1 : value;

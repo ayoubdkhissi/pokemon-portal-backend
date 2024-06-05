@@ -50,7 +50,7 @@ public class ConstructorTests
             {
                 _ = new Repository<TestEntity>(null);
             }
-            catch(ArgumentNullException ex)
+            catch (ArgumentNullException ex)
             {
                 _exception = ex;
             }

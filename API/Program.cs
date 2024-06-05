@@ -1,8 +1,8 @@
-using API.Middlewares;
-using Infrastructure.Configuration;
-using Application.Configuration;
 using API.Configuration;
+using API.Middlewares;
+using Application.Configuration;
 using Azure.Identity;
+using Infrastructure.Configuration;
 using Infrastructure.Persistence;
 var builder = WebApplication.CreateBuilder(args);
 

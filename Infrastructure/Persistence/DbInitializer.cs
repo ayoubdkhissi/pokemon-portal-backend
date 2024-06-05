@@ -24,7 +24,7 @@ public class DbInitializer
                 await _context.Database.MigrateAsync();
                 await Seed();
             }
-        }   
+        }
     }
 
     private async Task Seed()
