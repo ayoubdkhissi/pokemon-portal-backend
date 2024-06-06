@@ -8,5 +8,5 @@ public class Pokemon : BaseEntity
     public int Defense { get; set; }
     public string ImageUrl { get; set; } = string.Empty;
     public IEnumerable<Power> Powers { get; set; } = new List<Power>();
-    public uint CatchCount { get; set; }
+    public double CatchCount { get; set; }
 }

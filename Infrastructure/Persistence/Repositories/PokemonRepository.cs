@@ -1,6 +1,7 @@
 ﻿using Domain.Common;
 using Domain.Entities;
 using Domain.Interfaces;
+using Domain.Models;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -17,6 +18,7 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
     {
         IQueryable<Pokemon> query = _context.Pokemons
             .Include(p => p.Powers)
+            .OrderBy(p => p.Id)
             .AsNoTracking();
 
         if (!string.IsNullOrWhiteSpace(searchRequest.SearchTerm))
@@ -38,6 +40,30 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
             PageSize = searchRequest.PageSize,
             TotalItems = totalItems,
             TotalPages = (int)Math.Ceiling(totalItems / (double)searchRequest.PageSize)
+        };
+    }
+
+    public async Task<StatisticsModel> GetStatisticsAsync()
+    {
+        IQueryable<Pokemon> query = _context.Pokemons
+            .Include(p => p.Powers)
+            .AsNoTracking();
+
+        var topCatchedPokemons = await query.OrderByDescending(p => p.CatchCount)
+            .Take(4)
+            .Select(p => new Pokemon
+            {
+                Name = p.Name,
+                CatchCount = p.CatchCount
+            }).ToListAsync();
+
+        return new StatisticsModel
+        {
+            CatchCountCardData = new()
+            {
+                Labels = topCatchedPokemons.Select(p => p.Name).ToList(),
+                Counts = topCatchedPokemons.Select(p => p.CatchCount).ToList()
+            }
         };
     }
 }

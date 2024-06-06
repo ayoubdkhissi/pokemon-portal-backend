@@ -56,6 +56,7 @@ public static class ConfigureInfraServices
 
         services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
         services.AddScoped<DbInitializer>();
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         return services;
     }
 

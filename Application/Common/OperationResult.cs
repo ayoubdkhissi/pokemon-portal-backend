@@ -13,14 +13,16 @@ public class OperationResult
     public static OperationResult Success(
         int statusCode = (int)HttpStatusCode.OK,
         string? errorCode = null,
-        IDictionary<string, object>? metaData = null)
+        IDictionary<string, object>? metaData = null,
+        string? message = null)
     {
         return new OperationResult
         {
             IsSuccess = true,
             StatusCode = statusCode,
             ErrorCode = errorCode,
-            MetaData = metaData
+            MetaData = metaData,
+            Message = message
         };
     }
 
@@ -56,6 +58,11 @@ public class OperationResult
             MetaData = metaData,
             Message = message
         };
+    }
+
+    internal static OperationResult Failure(int badRequest1, object badRequest2, string v)
+    {
+        throw new NotImplementedException();
     }
 }
 

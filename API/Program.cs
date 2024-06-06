@@ -48,6 +48,8 @@ await context.InitializeAsync();
 app.UseCors(c =>
 {
     c.WithOrigins(builder.Configuration.GetSection("Cors:AllowedOrigins").Get<string[]>() ?? Array.Empty<string>());
+    c.AllowAnyHeader();
+    c.AllowAnyMethod();
 });
 
 app.UseMiddleware<GlobalExceptionHandlerMiddleware>();
