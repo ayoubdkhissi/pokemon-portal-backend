@@ -16,20 +16,20 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
 
     public async Task<SearchResponse<Pokemon>> SearchAsync(SearchRequest searchRequest)
     {
-        IQueryable<Pokemon> query = _context.Pokemons
+        IQueryable<Pokemon> PokemonsQuery = _context.Pokemons
             .Include(p => p.Powers)
             .OrderBy(p => p.Id)
             .AsNoTracking();
 
         if (!string.IsNullOrWhiteSpace(searchRequest.SearchTerm))
         {
-            query = query.Where(p => EF.Functions.Like(p.Name.ToLower(), $"%{searchRequest.SearchTerm.ToLower()}%"));
+            PokemonsQuery = PokemonsQuery.Where(p => EF.Functions.Like(p.Name.ToLower(), $"%{searchRequest.SearchTerm.ToLower()}%"));
 
         }
 
-        var totalItems = await query.CountAsync();
+        var totalItems = await PokemonsQuery.CountAsync();
 
-        var items = await query.Skip((searchRequest.PageNumber - 1) * searchRequest.PageSize)
+        var items = await PokemonsQuery.Skip((searchRequest.PageNumber - 1) * searchRequest.PageSize)
                      .Take(searchRequest.PageSize)
                      .ToListAsync();
 
@@ -45,25 +45,74 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
 
     public async Task<StatisticsModel> GetStatisticsAsync()
     {
-        IQueryable<Pokemon> query = _context.Pokemons
+        IQueryable<Pokemon> pokmeonsQuery = _context.Pokemons
             .Include(p => p.Powers)
+            .AsQueryable()
             .AsNoTracking();
 
-        var topCatchedPokemons = await query.OrderByDescending(p => p.CatchCount)
+        IQueryable<Power> powersQuery = _context.Powers
+            .Include(p => p.Pokemons)
+            .AsQueryable()
+            .AsNoTracking();
+
+
+        var topCatchedPokemons = await pokmeonsQuery.OrderByDescending(p => p.CatchCount)
             .Take(4)
             .Select(p => new Pokemon
             {
                 Name = p.Name,
                 CatchCount = p.CatchCount
             }).ToListAsync();
+        var catchCountCardData = new CatchCountCardData()
+        {
+            Labels = topCatchedPokemons.Select(p => p.Name).ToList(),
+            Counts = topCatchedPokemons.Select(p => p.CatchCount).ToList()
+        };
+
+
+        var averagesByPower = await powersQuery
+            .Select(power => new AveragesByPower
+            {
+                Power = new Power
+                {
+                    Id = power.Id,
+                    Name = power.Name,
+                    ImageUrl = power.ImageUrl,
+                    CreatedAt = power.CreatedAt,
+                    UpdatedAt = power.UpdatedAt,
+                    Color = power.Color,
+                    Pokemons = new List<Pokemon>()
+                },
+                PokemonCount = power.Pokemons.Count(),
+                AvgAttack = power.Pokemons.Average(pokemon => (double)pokemon.Attack),
+                AvgDefense = power.Pokemons.Average(pokemon => (double)pokemon.Defense)
+            })
+            .ToListAsync();
+
+
+        var countCatchCountByPower = await powersQuery
+            .Where(p => p.Pokemons.Any(p => p.CatchCount > 0))
+            .Select(power => new CatchCountByPowerData
+            {
+                Power = new Power
+                {
+                    Id = power.Id,
+                    Name = power.Name,
+                    ImageUrl = power.ImageUrl,
+                    CreatedAt = power.CreatedAt,
+                    UpdatedAt = power.UpdatedAt,
+                    Color = power.Color,
+                    Pokemons = new List<Pokemon>()
+                },
+                Count = power.Pokemons.Sum(p => p.CatchCount)
+            })
+            .ToListAsync();
 
         return new StatisticsModel
         {
-            CatchCountCardData = new()
-            {
-                Labels = topCatchedPokemons.Select(p => p.Name).ToList(),
-                Counts = topCatchedPokemons.Select(p => p.CatchCount).ToList()
-            }
+            CatchCountCardData = catchCountCardData,
+            AveragesByPower = averagesByPower,
+            CatchCountByPower = countCatchCountByPower
         };
     }
 }

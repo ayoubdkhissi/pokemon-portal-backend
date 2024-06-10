@@ -1,50 +1,62 @@
 [
-    {
-        "Name": "Dark",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg"
-    },
-    {
-        "Name": "Electric",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg"
-    },
-    {
-        "Name": "Fairy",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg"
-    },
-    {
-        "Name": "Fighting",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg"
-    },
-    {
-        "Name": "Ground",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg"
-    },
-    {
-        "Name": "Ice",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg"
-    },
-    {
-        "Name": "Normal",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg"
-    },
-    {
-        "Name": "Poison",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg"
-    },
-    {
-        "Name": "Psychic",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg"
-    },
-    {
-        "Name": "Rock",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg"
-    },
-    {
-        "Name": "Steel",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg"
-    },
-    {
-        "Name": "Water",
-        "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg"
-    }
+  {
+    "Name": "Dark",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/Pok%C3%A9mon_Dark_Type_Icon.svg",
+    "Color": "#705848"
+  },
+  {
+    "Name": "Electric",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg",
+    "Color": "#F8D030"
+  },
+  {
+    "Name": "Fairy",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg",
+    "Color": "#EE99AC"
+  },
+  {
+    "Name": "Fighting",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg",
+    "Color": "#C03028"
+  },
+  {
+    "Name": "Ground",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg",
+    "Color": "#E0C068"
+  },
+  {
+    "Name": "Ice",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg",
+    "Color": "#98D8D8"
+  },
+  {
+    "Name": "Normal",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg",
+    "Color": "#A8A878"
+  },
+  {
+    "Name": "Poison",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg",
+    "Color": "#A040A0"
+  },
+  {
+    "Name": "Psychic",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg",
+    "Color": "#F85888"
+  },
+  {
+    "Name": "Rock",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg",
+    "Color": "#B8A038"
+  },
+  {
+    "Name": "Steel",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg",
+    "Color": "#B8B8D0"
+  },
+  {
+    "Name": "Water",
+    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg",
+    "Color": "#6890F0"
+  }
 ]

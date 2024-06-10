@@ -87,7 +87,7 @@ public class PokemonService : Service<Pokemon>, IPokemonService
         {
             return OperationResult.Failure((int)HttpStatusCode.NotFound, ErrorCodes.NotFound, $"Pokemon {id} Not Found");
         }
-        if(pokemon.CatchCount <= 0)
+        if (pokemon.CatchCount <= 0)
         {
             return OperationResult.Failure((int)HttpStatusCode.BadRequest, ErrorCodes.BadRequest, $"Pokemon {id} is not caught yet");
         }
