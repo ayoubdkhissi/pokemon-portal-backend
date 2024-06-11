@@ -5,7 +5,7 @@ public class StatisticsModel
 {
     public CatchCountCardData CatchCountCardData { get; set; }
     public List<AveragesByPower> AveragesByPower { get; set; }
-    public List<CatchCountByPowerData> CatchCountByPower { get; set; }
+    public List<PokemonsByPowerData> PokemonsByPower { get; set; }
 
 }
 
@@ -24,8 +24,10 @@ public class AveragesByPower
     public double AvgDefense { get; set; }
 }
 
-public class CatchCountByPowerData
+public class PokemonsByPowerData
 {
     public Power Power { get; set; }
-    public int Count { get; set; }
+    public int CatchCount { get; set; }
+    public int PokemonCount { get; set; }
+
 }

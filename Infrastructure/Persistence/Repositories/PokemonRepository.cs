@@ -91,8 +91,7 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
 
 
         var countCatchCountByPower = await powersQuery
-            .Where(p => p.Pokemons.Any(p => p.CatchCount > 0))
-            .Select(power => new CatchCountByPowerData
+            .Select(power => new PokemonsByPowerData
             {
                 Power = new Power
                 {
@@ -104,7 +103,8 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
                     Color = power.Color,
                     Pokemons = new List<Pokemon>()
                 },
-                Count = power.Pokemons.Sum(p => p.CatchCount)
+                CatchCount = power.Pokemons.Sum(p => p.CatchCount),
+                PokemonCount = power.Pokemons.Count()
             })
             .ToListAsync();
 
@@ -112,7 +112,7 @@ public class PokemonRepository : Repository<Pokemon>, IPokemonRepository
         {
             CatchCountCardData = catchCountCardData,
             AveragesByPower = averagesByPower,
-            CatchCountByPower = countCatchCountByPower
+            PokemonsByPower = countCatchCountByPower
         };
     }
 }
