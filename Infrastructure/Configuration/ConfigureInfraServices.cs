@@ -72,7 +72,8 @@ public static class ConfigureInfraServices
     private static IServiceCollection AddCaching(this IServiceCollection services, IConfiguration configuration)
     {
         var env = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
-        if (env == Environments.Local || env == Environments.Production)
+        var cachingEnabled = string.Equals(Environment.GetEnvironmentVariable("ENABLE_CACHING"), "1", StringComparison.OrdinalIgnoreCase);
+        if (!cachingEnabled)
         {
             services.AddSingleton<ICacheService, FakeCacheService>();
             return services;
