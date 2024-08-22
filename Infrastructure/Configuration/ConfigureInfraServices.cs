@@ -49,14 +49,13 @@ public static class ConfigureInfraServices
 
     private static IServiceCollection AddDatabase(this IServiceCollection services, IConfiguration configuration)
     {
-        var connectionStringTemplate = configuration.GetConnectionString("PostgresTemplate")!;
+        var connectionStringTemplate = configuration.GetConnectionString("SqlServerTemplate")!;
         var connetionString = connectionStringTemplate
-                                .Replace("{userName}", configuration["DbUsername"]!, StringComparison.InvariantCulture)
-                                .Replace("{password}", configuration["DbPassword"]!, StringComparison.InvariantCulture);
+                                .Replace("{userName}", configuration["DbUsername"]!)
+                                .Replace("{password}", configuration["DbPassword"]!);
 
-        services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connetionString));
+        services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connetionString));
         services.AddScoped<DbInitializer>();
-        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
         return services;
     }
 

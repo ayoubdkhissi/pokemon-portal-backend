@@ -15,7 +15,7 @@ public class DbInitializer
 
     public async Task InitializeAsync()
     {
-        if (_context.Database.IsNpgsql())
+        if (_context.Database.IsSqlServer())
         {
             var pendingMigrations = await _context.Database.GetPendingMigrationsAsync();
             if (pendingMigrations.Any())
